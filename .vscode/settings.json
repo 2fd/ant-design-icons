@@ -1,0 +1,8 @@
+{
+  "editor.tabSize": 2,
+  "editor.formatOnSave": false,
+  "cSpell.words": [
+    "camelcase"
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib"
+}

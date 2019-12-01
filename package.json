@@ -1,0 +1,60 @@
+{
+  "name": "@2fd/ant-design-icons",
+  "version": "0.0.0-development",
+  "description": "Ant Design + Material Design Icon",
+  "main": "lib/index.js",
+  "directories": {
+    "docs": "docs"
+  },
+  "scripts": {
+    "build": "npm run clear && npm run build:icons && npm run build:site",
+    "build:icons": "ts-node build",
+    "build:site": "parcel build static/index.html static/icons/* --out-dir docs",
+    "start": "npm run build && parcel static/index.html static/icons/*",
+    "clear": "rm -rf src/* && rm -rf static/chuck/*",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2fd/ant-design-icons.git"
+  },
+  "author": "Fede Ramirez <i@2fd.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/2fd/ant-design-icons/issues"
+  },
+  "release": {
+    "branch": "master",
+    "ci": false,
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/github"
+    ]
+  },
+  "homepage": "https://github.com/2fd/ant-design-icons#readme",
+  "devDependencies": {
+    "@ant-design/colors": "^3.2.2",
+    "@mdi/js": "^4.5.95",
+    "@mdi/svg": "^4.5.95",
+    "@types/camelcase": "^5.2.0",
+    "@types/mustache": "^0.8.32",
+    "@types/node": "^12.12.8",
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.4",
+    "camelcase": "^5.3.1",
+    "framer-motion": "^1.6.15",
+    "mustache": "^3.1.0",
+    "parcel": "^1.12.4",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^1.19.1",
+    "react-dom": "^16.12.0",
+    "semantic-release": "^15.13.30",
+    "ts-node": "^8.5.2",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "antd": "^3.25.2",
+    "react": "^16.12.0"
+  }
+}

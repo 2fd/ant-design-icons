@@ -1,0 +1,59 @@
+
+.Logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: absolute;
+  padding: 1em;
+}
+
+.Logo .anticon {
+  margin: 0 1rem;
+}
+
+.Logo .anticon__plus,
+.Logo .anticon__equal {
+  font-size: 24px;
+  color: #aaa
+}
+
+.Logo .anticon__antd,
+.Logo .anticon__md,
+.Logo .anticon__heart {
+  font-size: 120px;
+}
+
+.Logo .anticon__antd {
+  color: var(--blue)
+}
+
+.Logo .anticon__md {
+  color: var(--green)
+}
+
+.Logo .anticon__heart {
+  color: var(--red)
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .Logo .anticon {
+    margin: .25rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .Logo .anticon {
+    margin: .25rem;
+  }
+
+  .Logo .anticon__plus,
+  .Logo .anticon__equal {
+    font-size: 5vw;
+  }
+  
+  .Logo .anticon__antd,
+  .Logo .anticon__md,
+  .Logo .anticon__heart {
+    font-size: 20vw;
+  }
+}

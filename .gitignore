@@ -59,3 +59,15 @@ typings/
 
 # next.js build output
 .next
+.cache
+.ds_store
+dist
+docs/
+static/icons/*.svg
+static/icons/*.css
+static/icons/*.json
+src/**/*.ts
+src/**/*.tsx
+src/**/*.json
+static/chunk/**/*.ts
+static/chunk/**/*.tsx

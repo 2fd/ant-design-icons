@@ -1,0 +1,78 @@
+:root {
+  --blue: #1890FF;
+  --red: #F5222D;
+  --green: #52C41A;
+
+  --on-table: 992px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0
+}
+
+#roo {
+  position: relative;
+}
+
+code {
+  background: #f5f5f5;
+  color: #444;
+  padding: .2em .5em;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+header,
+section,
+footer {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  background: #fff;
+}
+
+header {
+  height: 272px;
+  padding-bottom: 72px;
+  align-items: center;
+  line-height: 1em;
+}
+
+section.search {
+  position: absolute;
+  top: 200px;
+  transition: box-shadow .3s ease;
+  z-index: 100;
+}
+
+body.fixed section.search {
+  position: fixed;
+  box-shadow: 0 .1em .2em rgba(0,0,0,.2);
+  top: 0;
+}
+
+body.fixed .ant-message {
+  top: 79px
+}
+
+section.search .ant-btn {
+  margin-left: .5em;
+  font-size: 24px;
+}
+
+section.search .ant-input-search {
+  flex: 0 1 480px
+}
+
+section.icon-list {
+  max-width: 940px;
+}
+
+@media only screen and (max-width: var(--on-table)) {
+  
+}

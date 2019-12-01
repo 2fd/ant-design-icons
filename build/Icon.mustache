@@ -1,0 +1,18 @@
+import * as React from 'react';
+import Icon, { IconProps } from 'antd/lib/icon'
+
+/**
+ * [{{name}}](https://github.com/Templarian/MaterialDesign-SVG/blob/master/svg/{name}.svg) icon from [Material Design](https://github.com/Templarian/MaterialDesign)
+ * 
+ * @author {{author}}
+ * @version {{version}}{{#deprecated}}
+ * @deprecated{{/deprecated}}
+ */
+export default function {{component}}Icon(props: IconProps) {
+  return <Icon component={SVG} {...props} />
+}
+
+const SVG = () => <svg width="1em" height="1em" fill="currentColor" viewBox="0 0 24 24">
+  <path d="{{path}}" />
+</svg>
+

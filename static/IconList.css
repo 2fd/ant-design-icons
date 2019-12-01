@@ -1,0 +1,60 @@
+.IconList {
+  color: rgb(85, 85, 85);
+  font-size: 14px;
+  font-feature-settings: 'tnum';
+  font-weight: 400;
+  width: 100%;
+}
+
+.IconList .IconList__Item {
+  width: 140px;
+  height: 90px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 0.5em;
+  background-color: transparent;
+  transition: background-color 0.1s ease, border-color 0.1s ease, top .3s ease, left .3s ease;
+  position: absolute;
+  background: #fff;
+  border: 1px solid #d8d8d8;
+}
+
+.IconList .IconList__Item:hover {
+  background: #1890ff;
+  border-color: #007bed;
+}
+
+.IconList .IconList__Item:hover .ant-typography {
+  color: white;
+}
+
+.IconList .IconList__Item > span {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: relative;
+  width: 100%;
+}
+
+.IconList i.mdi-icon {
+  width: 36px;
+  height: 36px;
+  display: inline-block;
+}
+
+.IconList i.mdi-icon.reverse {
+  position: absolute;
+  left: 50%;
+  margin: 0 -18px;
+  opacity: 0;
+  transition: opacity 0.1s ease;
+}
+
+.IconList .IconList__Item:hover i.mdi-icon.reverse {
+  opacity: 1;
+}
