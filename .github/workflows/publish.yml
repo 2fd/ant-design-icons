@@ -23,18 +23,30 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
+
+      # publish to github
+      - uses: actions/setup-node@v1
+        with:
+          registry-url: 'https://npm.pkg.github.com'
       - name: releasing github repository
         run: npm run semantic-release -- --plugins "@semantic-release/npm"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_CONFIG_REGISTRY: https://npm.pkg.github.com/2fd
+
+      # publish to npm
+      - uses: actions/setup-node@v1
+        with:
+          registry-url: 'https://registry.npmjs.org/'
       - name: releasing npm
         run: npm run semantic-release -- --plugins "@semantic-release/npm"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
           NPM_CONFIG_REGISTRY: https://registry.npmjs.org/
+
+      # publish to gh pages
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v2
         env:
