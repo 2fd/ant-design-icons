@@ -12,6 +12,7 @@
     "build:site": "parcel build static/index.html static/icons/* --out-dir docs",
     "start": "npm run clear && npm run build && parcel static/index.html static/icons/*",
     "clear": "rm -rf src/* && rm -rf static/chuck/*",
+    "semantic-release": "semantic-release",
     "test": "jest"
   },
   "repository": {
