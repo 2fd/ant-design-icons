@@ -7,10 +7,10 @@
     "docs": "docs"
   },
   "scripts": {
-    "build": "npm run clear && npm run build:icons && npm run build:site",
+    "build": "npm run build:icons && npm run build:site",
     "build:icons": "ts-node build",
     "build:site": "parcel build static/index.html static/icons/* --out-dir docs",
-    "start": "npm run build && parcel static/index.html static/icons/*",
+    "start": "npm run clear && npm run build && parcel static/index.html static/icons/*",
     "clear": "rm -rf src/* && rm -rf static/chuck/*",
     "test": "jest"
   },
@@ -28,8 +28,9 @@
     "ci": false,
     "plugins": [
       "@semantic-release/commit-analyzer",
-      "@semantic-release/release-notes-generator",
-      "@semantic-release/github"
+      "@semantic-release/changelog",
+      "@semantic-release/github",
+      "@semantic-release/release-notes-generator"
     ]
   },
   "homepage": "https://github.com/2fd/ant-design-icons#readme",
@@ -37,6 +38,7 @@
     "@ant-design/colors": "^3.2.2",
     "@mdi/js": "^4.5.95",
     "@mdi/svg": "^4.5.95",
+    "@semantic-release/changelog": "^3.0.6",
     "@types/camelcase": "^5.2.0",
     "@types/mustache": "^0.8.32",
     "@types/node": "^12.12.8",
