@@ -9,7 +9,7 @@
   "scripts": {
     "build": "npm run build:icons && npm run build:site",
     "build:icons": "ts-node build",
-    "build:site": "parcel build static/index.html static/icons/* --out-dir docs",
+    "build:site": "parcel build static/index.html static/icons/* --out-dir docs --public-url ./",
     "start": "npm run clear && npm run build && parcel static/index.html static/icons/*",
     "clear": "rm -rf src/* && rm -rf static/chuck/*",
     "semantic-release": "semantic-release",
