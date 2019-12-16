@@ -455,4 +455,4 @@ module.exports=["6ab7fbae20","abb86f31ba","a600885e85","cc9e8f7b8f","f0ea1cae54"
 },{"tslib":"vCxL","react":"n8MK","antd/lib/button":"uh7y","antd/lib/input/Search":"rnA7","antd/lib/message":"QBtS","../src/NpmVariant":"h6um","../src/GithubBox":"Nvgr","./IconList":"hCmK","./Logo":"CycA","antd/dist/antd.min.css":"tuDi","./Site.css":"tuDi"}],"zo2T":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e=require("tslib"),r=e.__importStar(require("react")),t=e.__importStar(require("react-dom")),i=e.__importDefault(require("./Site")),u=document.getElementById("root");t.render(r.createElement(i.default,null),u);
 },{"tslib":"vCxL","react":"n8MK","react-dom":"NKHc","./Site":"oAaK"}]},{},["zo2T"], null)
-//# sourceMappingURL=/static.4d3d85cb.js.map
+//# sourceMappingURL=static.4d3d85cb.js.map
