@@ -24,13 +24,13 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
       - name: releasing github repository
-        run: npm run semantic-release --plugins "@semantic-release/npm"
+        run: npm run semantic-release -- --plugins "@semantic-release/npm"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
           NPM_CONFIG_REGISTRY: https://npm.pkg.github.com/2fd
       - name: releasing npm
-        run: npm run semantic-release --plugins "@semantic-release/npm"
+        run: npm run semantic-release -- --plugins "@semantic-release/npm"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
