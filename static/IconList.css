@@ -21,12 +21,47 @@
   transition: background-color 0.1s ease, border-color 0.1s ease, top .3s ease, left .3s ease;
   position: absolute;
   background: #fff;
-  border: 1px solid #d8d8d8;
+  border: 1px solid white;
 }
 
 .IconList .IconList__Item:hover {
   background: #1890ff;
   border-color: #007bed;
+}
+
+.IconList .IconList__Item::before,
+.IconList .IconList__Item::after {
+  background: #666666;
+  opacity: 0;
+  position: absolute;
+  display: block;
+  transition: opacity 0.1s ease;
+}
+
+.IconList .IconList__Item::before {
+  content: "";
+  width: .5rem;
+  height: .5rem;
+  transform: rotate(45deg);
+  z-index: 90;
+  top: 101%;
+}
+
+.IconList .IconList__Item::after {
+  content: attr(title);
+  top: 107%;
+  z-index: 999;
+  font-size: .8em;
+  color: white;
+  padding: .3rem .8rem;
+  border-radius: 4px;
+  /* left: 0; */
+  white-space: nowrap;
+}
+
+.IconList .IconList__Item:hover::before,
+.IconList .IconList__Item:hover::after {
+  opacity: 1;
 }
 
 .IconList .IconList__Item:hover .ant-typography {

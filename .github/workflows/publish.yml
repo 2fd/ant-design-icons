@@ -17,7 +17,7 @@ jobs:
       - name: installing
         run: npm ci
       - name: building
-        run: npm run build
+        run: npm run build:icons && npm run build:site -- --public-url ant-design-icons
       - name: releasing
         run: npm run semantic-release
         env:

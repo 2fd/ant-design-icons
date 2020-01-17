@@ -37,20 +37,30 @@ footer {
 }
 
 header {
-  height: 272px;
-  padding-bottom: 72px;
+  height: 296px;
+  padding-bottom: 6rem;
   align-items: center;
   line-height: 1em;
 }
 
-section.search {
+section.search-container{
   position: absolute;
-  top: 200px;
+  top: 214px;
   transition: box-shadow .3s ease;
   z-index: 100;
+  padding: 0;
 }
 
-body.fixed section.search {
+section.search-container .search{
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+  position: relative;
+  padding: 1em;
+  display: flex
+}
+
+body.fixed section.search-container {
   position: fixed;
   box-shadow: 0 .1em .2em rgba(0,0,0,.2);
   top: 0;
@@ -60,17 +70,17 @@ body.fixed .ant-message {
   top: 79px
 }
 
-section.search .ant-btn {
+section.search-container .ant-btn {
   margin-left: .5em;
   font-size: 24px;
 }
 
-section.search .ant-input-search {
-  flex: 0 1 480px
+section.search-container .ant-input-search {
+  flex: 0 1 auto
 }
 
 section.icon-list {
-  max-width: 940px;
+  max-width: 1120px;
 }
 
 @media only screen and (max-width: var(--on-table)) {

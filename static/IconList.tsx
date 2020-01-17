@@ -136,7 +136,7 @@ export default function IconList({
             <a
               key={name}
               className="IconList__Item"
-              title={Component}
+              title={`<${Component} />`}
               data-name={name}
               data-component={Component}
               onClick={onClickIcon}
@@ -146,7 +146,7 @@ export default function IconList({
                 <i className={`mdi-icon mdi-${name}`} />
                 <i className={`mdi-icon mdi-${name} reverse`} />
               </span>
-              <Text>{Component}</Text>
+              {/* <Text>{Component}</Text> */}
             </a>
           )
         })}

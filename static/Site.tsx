@@ -79,19 +79,21 @@ export default function Site() {
       <header>
         <Logo />
       </header>
-      <section className="search">
-        <Search
-          size="large"
-          placeholder="account outline"
-          defaultValue={filter}
-          onChange={handleFilterChange}
-        />
-        <Button size="large" href="https://github.com/2fd/ant-design-icons">
-          <GithubBoxIcon />
-        </Button>
-        <Button size="large" href="https://www.npmjs.com/package/@2fd/ant-design-icons">
-          <NpmVariantIcon />
-        </Button>
+      <section className="search-container">
+        <div className="search">
+          <Search
+            size="large"
+            placeholder="Search icon here, click icon to copy code"
+            defaultValue={filter}
+            onChange={handleFilterChange}
+          />
+          <Button size="large" href="https://github.com/2fd/ant-design-icons">
+            <GithubBoxIcon />
+          </Button>
+          <Button size="large" href="https://www.npmjs.com/package/@2fd/ant-design-icons">
+            <NpmVariantIcon />
+          </Button>
+          </div>
       </section>
       <section className="icon-list">
         <IconList filter={filter} onClickIcon={handleClickIcon} />
