@@ -44,12 +44,13 @@
   height: .5rem;
   transform: rotate(45deg);
   z-index: 90;
-  top: 101%;
+  top: 100%;
+  border: 1px solid white;
 }
 
 .IconList .IconList__Item::after {
   content: attr(title);
-  top: 107%;
+  top: 105%;
   z-index: 999;
   font-size: .8em;
   color: white;
