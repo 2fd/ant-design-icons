@@ -186,7 +186,7 @@ async function loadStylesheet(hash: string): Promise<void> {
   return new Promise((resolve, reject) => {
     const link = document.createElement('link') as HTMLLinkElement
     link.rel = 'stylesheet'
-    link.href = `/icons/${hash}.css`
+    link.href = `./icons/${hash}.css`
     link.onload = () => resolve()
     link.onerror = () => reject()
     document.head.prepend(link)
