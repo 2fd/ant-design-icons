@@ -3,6 +3,7 @@
   "version": "0.0.0-development",
   "description": "Ant Design + Material Design Icon",
   "main": "lib/index.js",
+  "private": false,
   "directories": {
     "docs": "docs"
   },
