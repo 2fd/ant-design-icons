@@ -32,7 +32,8 @@
       "@semantic-release/commit-analyzer",
       "@semantic-release/changelog",
       "@semantic-release/github",
-      "@semantic-release/release-notes-generator"
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/npm"
     ]
   },
   "homepage": "https://github.com/2fd/ant-design-icons#readme",
