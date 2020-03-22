@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+  width="720" height="900" viewBox="0 0 720 900">
+    <g id="mdi-vector-combine" transform="translate(0 0) scale(1.5)" fill="#555">
+      <path d="M3,1C1.89,1 1,1.89 1,3V14C1,15.11 1.89,16 3,16C4.33,16 7,16 7,16C7,16 7,18.67 7,20C7,21.11 7.89,22 9,22H20C21.11,22 22,21.11 22,20V9C22,7.89 21.11,7 20,7C18.67,7 16,7 16,7C16,7 16,4.33 16,3C16,1.89 15.11,1 14,1H3M3,3H14C14,4.33 14,7 14,7H9C7.89,7 7,7.89 7,9V14C7,14 4.33,14 3,14V3M9,9H14V14H9V9M16,9C16,9 18.67,9 20,9V20H9C9,18.67 9,16 9,16H14C15.11,16 16,15.11 16,14V9Z" />
+    </g>
+    <g id="mdi-vector-combine" transform="translate(36 0) scale(1.5)" fill="#fff">
+      <path d="M3,1C1.89,1 1,1.89 1,3V14C1,15.11 1.89,16 3,16C4.33,16 7,16 7,16C7,16 7,18.67 7,20C7,21.11 7.89,22 9,22H20C21.11,22 22,21.11 22,20V9C22,7.89 21.11,7 20,7C18.67,7 16,7 16,7C16,7 16,4.33 16,3C16,1.89 15.11,1 14,1H3M3,3H14C14,4.33 14,7 14,7H9C7.89,7 7,7.89 7,9V14C7,14 4.33,14 3,14V3M9,9H14V14H9V9M16,9C16,9 18.67,9 20,9V20H9C9,18.67 9,16 9,16H14C15.11,16 16,15.11 16,14V9Z" />
+    </g>
+    <g id="mdi-vector-curve" transform="translate(72 0) scale(1.5)" fill="#555">
+      <path d="M18.5,2A1.5,1.5 0 0,1 20,3.5A1.5,1.5 0 0,1 18.5,5C18.27,5 18.05,4.95 17.85,4.85L14.16,8.55L14.5,9C16.69,7.74 19.26,7 22,7L23,7.03V9.04L22,9C19.42,9 17,9.75 15,11.04A3.96,3.96 0 0,1 11.04,15C9.75,17 9,19.42 9,22L9.04,23H7.03L7,22C7,19.26 7.74,16.69 9,14.5L8.55,14.16L4.85,17.85C4.95,18.05 5,18.27 5,18.5A1.5,1.5 0 0,1 3.5,20A1.5,1.5 0 0,1 2,18.5A1.5,1.5 0 0,1 3.5,17C3.73,17 3.95,17.05 4.15,17.15L7.84,13.45C7.31,12.78 7,11.92 7,11A4,4 0 0,1 11,7C11.92,7 12.78,7.31 13.45,7.84L17.15,4.15C17.05,3.95 17,3.73 17,3.5A1.5,1.5 0 0,1 18.5,2M11,9A2,2 0 0,0 9,11A2,2 0 0,0 11,13A2,2 0 0,0 13,11A2,2 0 0,0 11,9Z" />
+    </g>
+    <g id="mdi-vector-curve" transform="translate(108 0) scale(1.5)" fill="#fff">
+      <path d="M18.5,2A1.5,1.5 0 0,1 20,3.5A1.5,1.5 0 0,1 18.5,5C18.27,5 18.05,4.95 17.85,4.85L14.16,8.55L14.5,9C16.69,7.74 19.26,7 22,7L23,7.03V9.04L22,9C19.42,9 17,9.75 15,11.04A3.96,3.96 0 0,1 11.04,15C9.75,17 9,19.42 9,22L9.04,23H7.03L7,22C7,19.26 7.74,16.69 9,14.5L8.55,14.16L4.85,17.85C4.95,18.05 5,18.27 5,18.5A1.5,1.5 0 0,1 3.5,20A1.5,1.5 0 0,1 2,18.5A1.5,1.5 0 0,1 3.5,17C3.73,17 3.95,17.05 4.15,17.15L7.84,13.45C7.31,12.78 7,11.92 7,11A4,4 0 0,1 11,7C11.92,7 12.78,7.31 13.45,7.84L17.15,4.15C17.05,3.95 17,3.73 17,3.5A1.5,1.5 0 0,1 18.5,2M11,9A2,2 0 0,0 9,11A2,2 0 0,0 11,13A2,2 0 0,0 13,11A2,2 0 0,0 11,9Z" />
+    </g>
+    <g id="mdi-vector-difference" transform="translate(144 0) scale(1.5)" fill="#555">
+      <path d="M3,1C1.89,1 1,1.89 1,3V14C1,15.11 1.89,16 3,16H5V14H3V3H14V5H16V3C16,1.89 15.11,1 14,1H3M9,7C7.89,7 7,7.89 7,9V11H9V9H11V7H9M13,7V9H14V10H16V7H13M18,7V9H20V20H9V18H7V20C7,21.11 7.89,22 9,22H20C21.11,22 22,21.11 22,20V9C22,7.89 21.11,7 20,7H18M14,12V14H12V16H14C15.11,16 16,15.11 16,14V12H14M7,13V16H10V14H9V13H7Z" />
+    </g>
+    <g id="mdi-vector-difference" transform="translate(180 0) scale(1.5)" fill="#fff">
+      <path d="M3,1C1.89,1 1,1.89 1,3V14C1,15.11 1.89,16 3,16H5V14H3V3H14V5H16V3C16,1.89 15.11,1 14,1H3M9,7C7.89,7 7,7.89 7,9V11H9V9H11V7H9M13,7V9H14V10H16V7H13M18,7V9H20V20H9V18H7V20C7,21.11 7.89,22 9,22H20C21.11,22 22,21.11 22,20V9C22,7.89 21.11,7 20,7H18M14,12V14H12V16H14C15.11,16 16,15.11 16,14V12H14M7,13V16H10V14H9V13H7Z" />
+    </g>
+    <g id="mdi-vector-difference-ab" transform="translate(216 0) scale(1.5)" fill="#555">
+      <path d="M3,1C1.89,1 1,1.89 1,3V5H3V3H5V1H3M7,1V3H10V1H7M12,1V3H14V5H16V3C16,1.89 15.11,1 14,1H12M1,7V10H3V7H1M14,7C14,7 14,11.67 14,14C11.67,14 7,14 7,14C7,14 7,18 7,20C7,21.11 7.89,22 9,22H20C21.11,22 22,21.11 22,20V9C22,7.89 21.11,7 20,7C18,7 14,7 14,7M16,9H20V20H9V16H14C15.11,16 16,15.11 16,14V9M1,12V14C1,15.11 1.89,16 3,16H5V14H3V12H1Z" />
+    </g>
+    <g id="mdi-vector-difference-ab" transform="translate(252 0) scale(1.5)" fill="#fff">
+      <path d="M3,1C1.89,1 1,1.89 1,3V5H3V3H5V1H3M7,1V3H10V1H7M12,1V3H14V5H16V3C16,1.89 15.11,1 14,1H12M1,7V10H3V7H1M14,7C14,7 14,11.67 14,14C11.67,14 7,14 7,14C7,14 7,18 7,20C7,21.11 7.89,22 9,22H20C21.11,22 22,21.11 22,20V9C22,7.89 21.11,7 20,7C18,7 14,7 14,7M16,9H20V20H9V16H14C15.11,16 16,15.11 16,14V9M1,12V14C1,15.11 1.89,16 3,16H5V14H3V12H1Z" />
+    </g>
+    <g id="mdi-vector-difference-ba" transform="translate(288 0) scale(1.5)" fill="#555">
+      <path d="M20,22C21.11,22 22,21.11 22,20V18H20V20H18V22H20M16,22V20H13V22H16M11,22V20H9V18H7V20C7,21.11 7.89,22 9,22H11M22,16V13H20V16H22M9,16C9,16 9,11.33 9,9C11.33,9 16,9 16,9C16,9 16,5 16,3C16,1.89 15.11,1 14,1H3C1.89,1 1,1.89 1,3V14C1,15.11 1.89,16 3,16C5,16 9,16 9,16M7,14H3V3H14V7H9C7.89,7 7,7.89 7,9V14M22,11V9C22,7.89 21.11,7 20,7H18V9H20V11H22Z" />
+    </g>
+    <g id="mdi-vector-difference-ba" transform="translate(324 0) scale(1.5)" fill="#fff">
+      <path d="M20,22C21.11,22 22,21.11 22,20V18H20V20H18V22H20M16,22V20H13V22H16M11,22V20H9V18H7V20C7,21.11 7.89,22 9,22H11M22,16V13H20V16H22M9,16C9,16 9,11.33 9,9C11.33,9 16,9 16,9C16,9 16,5 16,3C16,1.89 15.11,1 14,1H3C1.89,1 1,1.89 1,3V14C1,15.11 1.89,16 3,16C5,16 9,16 9,16M7,14H3V3H14V7H9C7.89,7 7,7.89 7,9V14M22,11V9C22,7.89 21.11,7 20,7H18V9H20V11H22Z" />
+    </g>
+    <g id="mdi-vector-ellipse" transform="translate(360 0) scale(1.5)" fill="#555">
+      <path d="M23,9V15H20.35C19.38,17.12 17.43,18.78 15,19.54V22H9V19.54C5.5,18.45 3,15.5 3,12C3,7.58 7.03,4 12,4C15.78,4 19,6.07 20.35,9H23M17,15V9H18.06C16.85,7.21 14.59,6 12,6C8.13,6 5,8.69 5,12C5,14.39 6.64,16.46 9,17.42V16H15V17.42C16.29,16.9 17.35,16.05 18.06,15H17M19,13H21V11H19V13M11,20H13V18H11V20Z" />
+    </g>
+    <g id="mdi-vector-ellipse" transform="translate(396 0) scale(1.5)" fill="#fff">
+      <path d="M23,9V15H20.35C19.38,17.12 17.43,18.78 15,19.54V22H9V19.54C5.5,18.45 3,15.5 3,12C3,7.58 7.03,4 12,4C15.78,4 19,6.07 20.35,9H23M17,15V9H18.06C16.85,7.21 14.59,6 12,6C8.13,6 5,8.69 5,12C5,14.39 6.64,16.46 9,17.42V16H15V17.42C16.29,16.9 17.35,16.05 18.06,15H17M19,13H21V11H19V13M11,20H13V18H11V20Z" />
+    </g>
+    <g id="mdi-vector-intersection" transform="translate(432 0) scale(1.5)" fill="#555">
+      <path d="M3.14,1A2.14,2.14 0 0,0 1,3.14V5H3V3H5V1H3.14M7,1V3H10V1H7M12,1V3H14V5H16V3.14C16,1.96 15.04,1 13.86,1H12M1,7V10H3V7H1M9,7C7.89,7 7,7.89 7,9C7,11.33 7,16 7,16C7,16 11.57,16 13.86,16A2.14,2.14 0 0,0 16,13.86C16,11.57 16,7 16,7C16,7 11.33,7 9,7M18,7V9H20V11H22V9C22,7.89 21.11,7 20,7H18M9,9H14V14H9V9M1,12V13.86C1,15.04 1.96,16 3.14,16H5V14H3V12H1M20,13V16H22V13H20M7,18V20C7,21.11 7.89,22 9,22H11V20H9V18H7M20,18V20H18V22H20C21.11,22 22,21.11 22,20V18H20M13,20V22H16V20H13Z" />
+    </g>
+    <g id="mdi-vector-intersection" transform="translate(468 0) scale(1.5)" fill="#fff">
+      <path d="M3.14,1A2.14,2.14 0 0,0 1,3.14V5H3V3H5V1H3.14M7,1V3H10V1H7M12,1V3H14V5H16V3.14C16,1.96 15.04,1 13.86,1H12M1,7V10H3V7H1M9,7C7.89,7 7,7.89 7,9C7,11.33 7,16 7,16C7,16 11.57,16 13.86,16A2.14,2.14 0 0,0 16,13.86C16,11.57 16,7 16,7C16,7 11.33,7 9,7M18,7V9H20V11H22V9C22,7.89 21.11,7 20,7H18M9,9H14V14H9V9M1,12V13.86C1,15.04 1.96,16 3.14,16H5V14H3V12H1M20,13V16H22V13H20M7,18V20C7,21.11 7.89,22 9,22H11V20H9V18H7M20,18V20H18V22H20C21.11,22 22,21.11 22,20V18H20M13,20V22H16V20H13Z" />
+    </g>
+    <g id="mdi-vector-line" transform="translate(504 0) scale(1.5)" fill="#555">
+      <path d="M15,3V7.59L7.59,15H3V21H9V16.42L16.42,9H21V3M17,5H19V7H17M5,17H7V19H5" />
+    </g>
+    <g id="mdi-vector-line" transform="translate(540 0) scale(1.5)" fill="#fff">
+      <path d="M15,3V7.59L7.59,15H3V21H9V16.42L16.42,9H21V3M17,5H19V7H17M5,17H7V19H5" />
+    </g>
+    <g id="mdi-vector-link" transform="translate(576 0) scale(1.5)" fill="#555">
+      <path d="M3 1C1.89 1 1 1.89 1 3V14C1 15.11 1.89 16 3 16H14C15.11 16 16 15.11 16 14V11H14V14H3V3H14V5H16V3C16 1.89 15.11 1 14 1M9 7C7.89 7 7 7.89 7 9V12H9V9H20V20H9V18H7V20C7 21.11 7.89 22 9 22H20C21.11 22 22 21.11 22 20V9C22 7.89 21.11 7 20 7H9" />
+    </g>
+    <g id="mdi-vector-link" transform="translate(612 0) scale(1.5)" fill="#fff">
+      <path d="M3 1C1.89 1 1 1.89 1 3V14C1 15.11 1.89 16 3 16H14C15.11 16 16 15.11 16 14V11H14V14H3V3H14V5H16V3C16 1.89 15.11 1 14 1M9 7C7.89 7 7 7.89 7 9V12H9V9H20V20H9V18H7V20C7 21.11 7.89 22 9 22H20C21.11 22 22 21.11 22 20V9C22 7.89 21.11 7 20 7H9" />
+    </g>
+    <g id="mdi-vector-point" transform="translate(648 0) scale(1.5)" fill="#555">
+      <path d="M12,20L7,22L12,11L17,22L12,20M8,2H16V5H22V7H16V10H8V7H2V5H8V2M10,4V8H14V4H10Z" />
+    </g>
+    <g id="mdi-vector-point" transform="translate(684 0) scale(1.5)" fill="#fff">
+      <path d="M12,20L7,22L12,11L17,22L12,20M8,2H16V5H22V7H16V10H8V7H2V5H8V2M10,4V8H14V4H10Z" />
+    </g>
+    <g id="mdi-vector-polygon" transform="translate(0 36) scale(1.5)" fill="#555">
+      <path d="M2,2V8H4.28L5.57,16H4V22H10V20.06L15,20.05V22H21V16H19.17L20,9H22V3H16V6.53L14.8,8H9.59L8,5.82V2M4,4H6V6H4M18,5H20V7H18M6.31,8H7.11L9,10.59V14H15V10.91L16.57,9H18L17.16,16H15V18.06H10V16H7.6M11,10H13V12H11M6,18H8V20H6M17,18H19V20H17" />
+    </g>
+    <g id="mdi-vector-polygon" transform="translate(36 36) scale(1.5)" fill="#fff">
+      <path d="M2,2V8H4.28L5.57,16H4V22H10V20.06L15,20.05V22H21V16H19.17L20,9H22V3H16V6.53L14.8,8H9.59L8,5.82V2M4,4H6V6H4M18,5H20V7H18M6.31,8H7.11L9,10.59V14H15V10.91L16.57,9H18L17.16,16H15V18.06H10V16H7.6M11,10H13V12H11M6,18H8V20H6M17,18H19V20H17" />
+    </g>
+    <g id="mdi-vector-polyline" transform="translate(72 36) scale(1.5)" fill="#555">
+      <path d="M2 3V9H4.95L6.95 15H6V21H12V16.41L17.41 11H22V5H16V9.57L10.59 15H9.06L7.06 9H8V3M4 5H6V7H4M18 7H20V9H18M8 17H10V19H8Z" />
+    </g>
+    <g id="mdi-vector-polyline" transform="translate(108 36) scale(1.5)" fill="#fff">
+      <path d="M2 3V9H4.95L6.95 15H6V21H12V16.41L17.41 11H22V5H16V9.57L10.59 15H9.06L7.06 9H8V3M4 5H6V7H4M18 7H20V9H18M8 17H10V19H8Z" />
+    </g>
+    <g id="mdi-vector-polyline-edit" transform="translate(144 36) scale(1.5)" fill="#555">
+      <path d="M2 3V9H4.95L6.95 15H6V21H12V16.41L17.41 11H22V5H16V9.57L10.59 15H9.06L7.06 9H8V3H2M4 5H6V7H4V5M18 7H20V9H18V7M21.15 13C21 13 20.87 13.05 20.76 13.16L19.75 14.18L21.82 16.25L22.84 15.24C23.05 15.03 23.05 14.67 22.84 14.46L21.54 13.16C21.43 13.05 21.29 13 21.15 13M19.15 14.76L13 20.91V23H15.09L21.23 16.84L19.15 14.76M8 17H10V19H8V17Z" />
+    </g>
+    <g id="mdi-vector-polyline-edit" transform="translate(180 36) scale(1.5)" fill="#fff">
+      <path d="M2 3V9H4.95L6.95 15H6V21H12V16.41L17.41 11H22V5H16V9.57L10.59 15H9.06L7.06 9H8V3H2M4 5H6V7H4V5M18 7H20V9H18V7M21.15 13C21 13 20.87 13.05 20.76 13.16L19.75 14.18L21.82 16.25L22.84 15.24C23.05 15.03 23.05 14.67 22.84 14.46L21.54 13.16C21.43 13.05 21.29 13 21.15 13M19.15 14.76L13 20.91V23H15.09L21.23 16.84L19.15 14.76M8 17H10V19H8V17Z" />
+    </g>
+    <g id="mdi-vector-polyline-minus" transform="translate(216 36) scale(1.5)" fill="#555">
+      <path d="M2 3V9H4.95L6.95 15H6V21H12V16.41L17.41 11H22V5H16V9.57L10.59 15H9.06L7.06 9H8V3H2M4 5H6V7H4V5M18 7H20V9H18V7M8 17H10V19H8V17M15 18V20H23V18H15Z" />
+    </g>
+    <g id="mdi-vector-polyline-minus" transform="translate(252 36) scale(1.5)" fill="#fff">
+      <path d="M2 3V9H4.95L6.95 15H6V21H12V16.41L17.41 11H22V5H16V9.57L10.59 15H9.06L7.06 9H8V3H2M4 5H6V7H4V5M18 7H20V9H18V7M8 17H10V19H8V17M15 18V20H23V18H15Z" />
+    </g>
+    <g id="mdi-vector-polyline-plus" transform="translate(288 36) scale(1.5)" fill="#555">
+      <path d="M2 3V9H4.95L6.95 15H6V21H12V16.41L17.41 11H22V5H16V9.57L10.59 15H9.06L7.06 9H8V3H2M4 5H6V7H4V5M18 7H20V9H18V7M18 15V18H15V20H18V23H20V20H23V18H20V15H18M8 17H10V19H8V17Z" />
+    </g>
+    <g id="mdi-vector-polyline-plus" transform="translate(324 36) scale(1.5)" fill="#fff">
+      <path d="M2 3V9H4.95L6.95 15H6V21H12V16.41L17.41 11H22V5H16V9.57L10.59 15H9.06L7.06 9H8V3H2M4 5H6V7H4V5M18 7H20V9H18V7M18 15V18H15V20H18V23H20V20H23V18H20V15H18M8 17H10V19H8V17Z" />
+    </g>
+    <g id="mdi-vector-polyline-remove" transform="translate(360 36) scale(1.5)" fill="#555">
+      <path d="M21.1 15.5L19 17.6L16.9 15.5L15.5 16.9L17.6 19L15.5 21.1L16.9 22.5L19 20.4L21.1 22.5L22.5 21.1L20.4 19L22.5 16.9L21.1 15.5M16 5V9.6L10.6 15H9.1L7.1 9H8V3H2V9H5L7 15H6V21H12V16.4L17.4 11H22V5H16M6 7H4V5H6V7M10 19H8V17H10V19M20 9H18V7H20V9" />
+    </g>
+    <g id="mdi-vector-polyline-remove" transform="translate(396 36) scale(1.5)" fill="#fff">
+      <path d="M21.1 15.5L19 17.6L16.9 15.5L15.5 16.9L17.6 19L15.5 21.1L16.9 22.5L19 20.4L21.1 22.5L22.5 21.1L20.4 19L22.5 16.9L21.1 15.5M16 5V9.6L10.6 15H9.1L7.1 9H8V3H2V9H5L7 15H6V21H12V16.4L17.4 11H22V5H16M6 7H4V5H6V7M10 19H8V17H10V19M20 9H18V7H20V9" />
+    </g>
+    <g id="mdi-vector-radius" transform="translate(432 36) scale(1.5)" fill="#555">
+      <path d="M2,4H4V2H10V4A10,10 0 0,1 20,14H22V20H20V22H18V20H16V14H18A8,8 0 0,0 10,6V8H4V6H2V4M18,16V18H20V16H18M6,4V6H8V4H6Z" />
+    </g>
+    <g id="mdi-vector-radius" transform="translate(468 36) scale(1.5)" fill="#fff">
+      <path d="M2,4H4V2H10V4A10,10 0 0,1 20,14H22V20H20V22H18V20H16V14H18A8,8 0 0,0 10,6V8H4V6H2V4M18,16V18H20V16H18M6,4V6H8V4H6Z" />
+    </g>
+    <g id="mdi-vector-rectangle" transform="translate(504 36) scale(1.5)" fill="#555">
+      <path d="M2,4H8V6H16V4H22V10H20V14H22V20H16V18H8V20H2V14H4V10H2V4M16,10V8H8V10H6V14H8V16H16V14H18V10H16M4,6V8H6V6H4M18,6V8H20V6H18M4,16V18H6V16H4M18,16V18H20V16H18Z" />
+    </g>
+    <g id="mdi-vector-rectangle" transform="translate(540 36) scale(1.5)" fill="#fff">
+      <path d="M2,4H8V6H16V4H22V10H20V14H22V20H16V18H8V20H2V14H4V10H2V4M16,10V8H8V10H6V14H8V16H16V14H18V10H16M4,6V8H6V6H4M18,6V8H20V6H18M4,16V18H6V16H4M18,16V18H20V16H18Z" />
+    </g>
+    <g id="mdi-vector-selection" transform="translate(576 36) scale(1.5)" fill="#555">
+      <path d="M3,1H5V3H3V5H1V3A2,2 0 0,1 3,1M14,1A2,2 0 0,1 16,3V5H14V3H12V1H14M20,7A2,2 0 0,1 22,9V11H20V9H18V7H20M22,20A2,2 0 0,1 20,22H18V20H20V18H22V20M20,13H22V16H20V13M13,9V7H16V10H14V9H13M13,22V20H16V22H13M9,22A2,2 0 0,1 7,20V18H9V20H11V22H9M7,16V13H9V14H10V16H7M7,3V1H10V3H7M3,16A2,2 0 0,1 1,14V12H3V14H5V16H3M1,7H3V10H1V7M9,7H11V9H9V11H7V9A2,2 0 0,1 9,7M16,14A2,2 0 0,1 14,16H12V14H14V12H16V14Z" />
+    </g>
+    <g id="mdi-vector-selection" transform="translate(612 36) scale(1.5)" fill="#fff">
+      <path d="M3,1H5V3H3V5H1V3A2,2 0 0,1 3,1M14,1A2,2 0 0,1 16,3V5H14V3H12V1H14M20,7A2,2 0 0,1 22,9V11H20V9H18V7H20M22,20A2,2 0 0,1 20,22H18V20H20V18H22V20M20,13H22V16H20V13M13,9V7H16V10H14V9H13M13,22V20H16V22H13M9,22A2,2 0 0,1 7,20V18H9V20H11V22H9M7,16V13H9V14H10V16H7M7,3V1H10V3H7M3,16A2,2 0 0,1 1,14V12H3V14H5V16H3M1,7H3V10H1V7M9,7H11V9H9V11H7V9A2,2 0 0,1 9,7M16,14A2,2 0 0,1 14,16H12V14H14V12H16V14Z" />
+    </g>
+    <g id="mdi-vector-square" transform="translate(648 36) scale(1.5)" fill="#555">
+      <path d="M2,2H8V4H16V2H22V8H20V16H22V22H16V20H8V22H2V16H4V8H2V2M16,8V6H8V8H6V16H8V18H16V16H18V8H16M4,4V6H6V4H4M18,4V6H20V4H18M4,18V20H6V18H4M18,18V20H20V18H18Z" />
+    </g>
+    <g id="mdi-vector-square" transform="translate(684 36) scale(1.5)" fill="#fff">
+      <path d="M2,2H8V4H16V2H22V8H20V16H22V22H16V20H8V22H2V16H4V8H2V2M16,8V6H8V8H6V16H8V18H16V16H18V8H16M4,4V6H6V4H4M18,4V6H20V4H18M4,18V20H6V18H4M18,18V20H20V18H18Z" />
+    </g>
+    <g id="mdi-vector-triangle" transform="translate(0 72) scale(1.5)" fill="#555">
+      <path d="M9,3V9H9.73L5.79,16H2V22H8V20H16V22H22V16H18.21L14.27,9H15V3M11,5H13V7H11M12,9.04L16,16.15V18H8V16.15M4,18H6V20H4M18,18H20V20H18" />
+    </g>
+    <g id="mdi-vector-triangle" transform="translate(36 72) scale(1.5)" fill="#fff">
+      <path d="M9,3V9H9.73L5.79,16H2V22H8V20H16V22H22V16H18.21L14.27,9H15V3M11,5H13V7H11M12,9.04L16,16.15V18H8V16.15M4,18H6V20H4M18,18H20V20H18" />
+    </g>
+    <g id="mdi-vector-union" transform="translate(72 72) scale(1.5)" fill="#555">
+      <path d="M3,1C1.89,1 1,1.89 1,3V14C1,15.11 1.89,16 3,16H7V20C7,21.11 7.89,22 9,22H20C21.11,22 22,21.11 22,20V9C22,7.89 21.11,7 20,7H16V3C16,1.89 15.11,1 14,1H3M3,3H14V9H20V20H9V14H3V3Z" />
+    </g>
+    <g id="mdi-vector-union" transform="translate(108 72) scale(1.5)" fill="#fff">
+      <path d="M3,1C1.89,1 1,1.89 1,3V14C1,15.11 1.89,16 3,16H7V20C7,21.11 7.89,22 9,22H20C21.11,22 22,21.11 22,20V9C22,7.89 21.11,7 20,7H16V3C16,1.89 15.11,1 14,1H3M3,3H14V9H20V20H9V14H3V3Z" />
+    </g>
+    <g id="mdi-venmo" transform="translate(144 72) scale(1.5)" fill="#555">
+      <path d="M19.5,3C20.14,4.08 20.44,5.19 20.44,6.6C20.44,11.08 16.61,16.91 13.5,21H6.41L3.56,4L9.77,3.39L11.28,15.5C12.69,13.21 14.42,9.61 14.42,7.16C14.42,5.81 14.19,4.9 13.83,4.15L19.5,3Z" />
+    </g>
+    <g id="mdi-venmo" transform="translate(180 72) scale(1.5)" fill="#fff">
+      <path d="M19.5,3C20.14,4.08 20.44,5.19 20.44,6.6C20.44,11.08 16.61,16.91 13.5,21H6.41L3.56,4L9.77,3.39L11.28,15.5C12.69,13.21 14.42,9.61 14.42,7.16C14.42,5.81 14.19,4.9 13.83,4.15L19.5,3Z" />
+    </g>
+    <g id="mdi-vhs" transform="translate(216 72) scale(1.5)" fill="#555">
+      <path d="M4,6A2,2 0 0,0 2,8V16A2,2 0 0,0 4,18H20A2,2 0 0,0 22,16V8A2,2 0 0,0 20,6H4M4.54,10H7V14H4.54C4.19,13.39 4,12.7 4,12C4,11.3 4.19,10.61 4.54,10M9,10H15V14H9V10M17,10H19.46C19.81,10.61 20,11.3 20,12C20,12.7 19.81,13.39 19.46,14H17V10Z" />
+    </g>
+    <g id="mdi-vhs" transform="translate(252 72) scale(1.5)" fill="#fff">
+      <path d="M4,6A2,2 0 0,0 2,8V16A2,2 0 0,0 4,18H20A2,2 0 0,0 22,16V8A2,2 0 0,0 20,6H4M4.54,10H7V14H4.54C4.19,13.39 4,12.7 4,12C4,11.3 4.19,10.61 4.54,10M9,10H15V14H9V10M17,10H19.46C19.81,10.61 20,11.3 20,12C20,12.7 19.81,13.39 19.46,14H17V10Z" />
+    </g>
+    <g id="mdi-vibrate" transform="translate(288 72) scale(1.5)" fill="#555">
+      <path d="M16,19H8V5H16M16.5,3H7.5A1.5,1.5 0 0,0 6,4.5V19.5A1.5,1.5 0 0,0 7.5,21H16.5A1.5,1.5 0 0,0 18,19.5V4.5A1.5,1.5 0 0,0 16.5,3M19,17H21V7H19M22,9V15H24V9M3,17H5V7H3M0,15H2V9H0V15Z" />
+    </g>
+    <g id="mdi-vibrate" transform="translate(324 72) scale(1.5)" fill="#fff">
+      <path d="M16,19H8V5H16M16.5,3H7.5A1.5,1.5 0 0,0 6,4.5V19.5A1.5,1.5 0 0,0 7.5,21H16.5A1.5,1.5 0 0,0 18,19.5V4.5A1.5,1.5 0 0,0 16.5,3M19,17H21V7H19M22,9V15H24V9M3,17H5V7H3M0,15H2V9H0V15Z" />
+    </g>
+    <g id="mdi-vibrate-off" transform="translate(360 72) scale(1.5)" fill="#555">
+      <path d="M8.2,5L6.55,3.35C6.81,3.12 7.15,3 7.5,3H16.5A1.5,1.5 0 0,1 18,4.5V14.8L16,12.8V5H8.2M0,15H2V9H0V15M21,17V7H19V15.8L20.2,17H21M3,17H5V7H3V17M18,17.35L22.11,21.46L20.84,22.73L18,19.85C17.83,20.54 17.21,21 16.5,21H7.5A1.5,1.5 0 0,1 6,19.5V7.89L1.11,3L2.39,1.73L6.09,5.44L8,7.34L16,15.34L18,17.34V17.35M16,17.89L8,9.89V19H16V17.89M22,9V15H24V9H22Z" />
+    </g>
+    <g id="mdi-vibrate-off" transform="translate(396 72) scale(1.5)" fill="#fff">
+      <path d="M8.2,5L6.55,3.35C6.81,3.12 7.15,3 7.5,3H16.5A1.5,1.5 0 0,1 18,4.5V14.8L16,12.8V5H8.2M0,15H2V9H0V15M21,17V7H19V15.8L20.2,17H21M3,17H5V7H3V17M18,17.35L22.11,21.46L20.84,22.73L18,19.85C17.83,20.54 17.21,21 16.5,21H7.5A1.5,1.5 0 0,1 6,19.5V7.89L1.11,3L2.39,1.73L6.09,5.44L8,7.34L16,15.34L18,17.34V17.35M16,17.89L8,9.89V19H16V17.89M22,9V15H24V9H22Z" />
+    </g>
+    <g id="mdi-video" transform="translate(432 72) scale(1.5)" fill="#555">
+      <path d="M17,10.5V7A1,1 0 0,0 16,6H4A1,1 0 0,0 3,7V17A1,1 0 0,0 4,18H16A1,1 0 0,0 17,17V13.5L21,17.5V6.5L17,10.5Z" />
+    </g>
+    <g id="mdi-video" transform="translate(468 72) scale(1.5)" fill="#fff">
+      <path d="M17,10.5V7A1,1 0 0,0 16,6H4A1,1 0 0,0 3,7V17A1,1 0 0,0 4,18H16A1,1 0 0,0 17,17V13.5L21,17.5V6.5L17,10.5Z" />
+    </g>
+    <g id="mdi-video-3d" transform="translate(504 72) scale(1.5)" fill="#555">
+      <path d="" />
+    </g>
+    <g id="mdi-video-3d" transform="translate(540 72) scale(1.5)" fill="#fff">
+      <path d="" />
+    </g>
+    <g id="mdi-video-3d-variant" transform="translate(576 72) scale(1.5)" fill="#555">
+      <path d="" />
+    </g>
+    <g id="mdi-video-3d-variant" transform="translate(612 72) scale(1.5)" fill="#fff">
+      <path d="" />
+    </g>
+    <g id="mdi-video-4k-box" transform="translate(648 72) scale(1.5)" fill="#555">
+      <path d="" />
+    </g>
+    <g id="mdi-video-4k-box" transform="translate(684 72) scale(1.5)" fill="#fff">
+      <path d="" />
+    </g>
+    <g id="mdi-video-account" transform="translate(0 108) scale(1.5)" fill="#555">
+      <path d="M17,10.5L21,6.5V17.5L17,13.5V17A1,1 0 0,1 16,18H4A1,1 0 0,1 3,17V7A1,1 0 0,1 4,6H16A1,1 0 0,1 17,7V10.5M14,16V15C14,13.67 11.33,13 10,13C8.67,13 6,13.67 6,15V16H14M10,8A2,2 0 0,0 8,10A2,2 0 0,0 10,12A2,2 0 0,0 12,10A2,2 0 0,0 10,8Z" />
+    </g>
+    <g id="mdi-video-account" transform="translate(36 108) scale(1.5)" fill="#fff">
+      <path d="M17,10.5L21,6.5V17.5L17,13.5V17A1,1 0 0,1 16,18H4A1,1 0 0,1 3,17V7A1,1 0 0,1 4,6H16A1,1 0 0,1 17,7V10.5M14,16V15C14,13.67 11.33,13 10,13C8.67,13 6,13.67 6,15V16H14M10,8A2,2 0 0,0 8,10A2,2 0 0,0 10,12A2,2 0 0,0 12,10A2,2 0 0,0 10,8Z" />
+    </g>
+    <g id="mdi-video-check" transform="translate(72 108) scale(1.5)" fill="#555">
+      <path d="M17 10.5V7C17 6.45 16.55 6 16 6H4C3.45 6 3 6.45 3 7V17C3 17.55 3.45 18 4 18H16C16.55 18 17 17.55 17 17V13.5L21 17.5V6.5L17 10.5M8.93 15L6 11.8L7.24 10.56L8.93 12.26L12.76 8.43L14 9.93L8.93 15Z" />
+    </g>
+    <g id="mdi-video-check" transform="translate(108 108) scale(1.5)" fill="#fff">
+      <path d="M17 10.5V7C17 6.45 16.55 6 16 6H4C3.45 6 3 6.45 3 7V17C3 17.55 3.45 18 4 18H16C16.55 18 17 17.55 17 17V13.5L21 17.5V6.5L17 10.5M8.93 15L6 11.8L7.24 10.56L8.93 12.26L12.76 8.43L14 9.93L8.93 15Z" />
+    </g>
+    <g id="mdi-video-check-outline" transform="translate(144 108) scale(1.5)" fill="#555">
+      <path d="M15 8V16H5V8H15M16 6H4C3.45 6 3 6.45 3 7V17C3 17.55 3.45 18 4 18H16C16.55 18 17 17.55 17 17V13.5L21 17.5V6.5L17 10.5V7C17 6.45 16.55 6 16 6M6.35 12.08L7.5 10.95L9 12.5L12.5 9L13.65 10.37L9 15L6.35 12.08Z" />
+    </g>
+    <g id="mdi-video-check-outline" transform="translate(180 108) scale(1.5)" fill="#fff">
+      <path d="M15 8V16H5V8H15M16 6H4C3.45 6 3 6.45 3 7V17C3 17.55 3.45 18 4 18H16C16.55 18 17 17.55 17 17V13.5L21 17.5V6.5L17 10.5V7C17 6.45 16.55 6 16 6M6.35 12.08L7.5 10.95L9 12.5L12.5 9L13.65 10.37L9 15L6.35 12.08Z" />
+    </g>
+    <g id="mdi-video-image" transform="translate(216 108) scale(1.5)" fill="#555">
+      <path d="M17,10.5L21,6.5V17.5L17,13.5V17A1,1 0 0,1 16,18H4A1,1 0 0,1 3,17V7A1,1 0 0,1 4,6H16A1,1 0 0,1 17,7V10.5M10.91,9.55L9.2,11.82L10.5,13.55L9.77,14.09L7.73,11.36L5,15H15L10.91,9.55Z" />
+    </g>
+    <g id="mdi-video-image" transform="translate(252 108) scale(1.5)" fill="#fff">
+      <path d="M17,10.5L21,6.5V17.5L17,13.5V17A1,1 0 0,1 16,18H4A1,1 0 0,1 3,17V7A1,1 0 0,1 4,6H16A1,1 0 0,1 17,7V10.5M10.91,9.55L9.2,11.82L10.5,13.55L9.77,14.09L7.73,11.36L5,15H15L10.91,9.55Z" />
+    </g>
+    <g id="mdi-video-input-antenna" transform="translate(288 108) scale(1.5)" fill="#555">
+      <path d="M12,5A7,7 0 0,0 5,12H7A5,5 0 0,1 12,7A5,5 0 0,1 17,12H19A7,7 0 0,0 12,5M13,14.29C13.88,13.9 14.5,13.03 14.5,12A2.5,2.5 0 0,0 12,9.5A2.5,2.5 0 0,0 9.5,12C9.5,13 10.12,13.9 11,14.29V17.59L7.59,21L9,22.41L12,19.41L15,22.41L16.41,21L13,17.59V14.29M12,1A11,11 0 0,0 1,12H3A9,9 0 0,1 12,3A9,9 0 0,1 21,12H23A11,11 0 0,0 12,1Z" />
+    </g>
+    <g id="mdi-video-input-antenna" transform="translate(324 108) scale(1.5)" fill="#fff">
+      <path d="M12,5A7,7 0 0,0 5,12H7A5,5 0 0,1 12,7A5,5 0 0,1 17,12H19A7,7 0 0,0 12,5M13,14.29C13.88,13.9 14.5,13.03 14.5,12A2.5,2.5 0 0,0 12,9.5A2.5,2.5 0 0,0 9.5,12C9.5,13 10.12,13.9 11,14.29V17.59L7.59,21L9,22.41L12,19.41L15,22.41L16.41,21L13,17.59V14.29M12,1A11,11 0 0,0 1,12H3A9,9 0 0,1 12,3A9,9 0 0,1 21,12H23A11,11 0 0,0 12,1Z" />
+    </g>
+    <g id="mdi-video-input-component" transform="translate(360 108) scale(1.5)" fill="#555">
+      <path d="M5,2A1,1 0 0,0 4,1A1,1 0 0,0 3,2V6H1V12H7V6H5V2M9,16C9,17.3 9.84,18.4 11,18.82V23H13V18.82C14.16,18.41 15,17.31 15,16V14H9V16M1,16C1,17.3 1.84,18.4 3,18.82V23H5V18.82C6.16,18.4 7,17.3 7,16V14H1V16M21,6V2A1,1 0 0,0 20,1A1,1 0 0,0 19,2V6H17V12H23V6H21M13,2A1,1 0 0,0 12,1A1,1 0 0,0 11,2V6H9V12H15V6H13V2M17,16C17,17.3 17.84,18.4 19,18.82V23H21V18.82C22.16,18.41 23,17.31 23,16V14H17V16Z" />
+    </g>
+    <g id="mdi-video-input-component" transform="translate(396 108) scale(1.5)" fill="#fff">
+      <path d="M5,2A1,1 0 0,0 4,1A1,1 0 0,0 3,2V6H1V12H7V6H5V2M9,16C9,17.3 9.84,18.4 11,18.82V23H13V18.82C14.16,18.41 15,17.31 15,16V14H9V16M1,16C1,17.3 1.84,18.4 3,18.82V23H5V18.82C6.16,18.4 7,17.3 7,16V14H1V16M21,6V2A1,1 0 0,0 20,1A1,1 0 0,0 19,2V6H17V12H23V6H21M13,2A1,1 0 0,0 12,1A1,1 0 0,0 11,2V6H9V12H15V6H13V2M17,16C17,17.3 17.84,18.4 19,18.82V23H21V18.82C22.16,18.41 23,17.31 23,16V14H17V16Z" />
+    </g>
+    <g id="mdi-video-input-hdmi" transform="translate(432 108) scale(1.5)" fill="#555">
+      <path d="M18,7V4A2,2 0 0,0 16,2H8A2,2 0 0,0 6,4V7H5V13L8,19V22H16V19L19,13V7H18M8,4H16V7H14V5H13V7H11V5H10V7H8V4Z" />
+    </g>
+    <g id="mdi-video-input-hdmi" transform="translate(468 108) scale(1.5)" fill="#fff">
+      <path d="M18,7V4A2,2 0 0,0 16,2H8A2,2 0 0,0 6,4V7H5V13L8,19V22H16V19L19,13V7H18M8,4H16V7H14V5H13V7H11V5H10V7H8V4Z" />
+    </g>
+    <g id="mdi-video-input-scart" transform="translate(504 108) scale(1.5)" fill="#555">
+      <path d="M20.6 2.2L17.3 2.4L13.8 4.4L13.3 3.5L2 10V17H3V19C3 20.1 3.9 21 5 21H15C16.1 21 17 20.1 17 19V17H18V10H17L16.8 9.6L20.3 7.6L22.1 4.8L20.6 2.2M15 17V19H5V17H15Z" />
+    </g>
+    <g id="mdi-video-input-scart" transform="translate(540 108) scale(1.5)" fill="#fff">
+      <path d="M20.6 2.2L17.3 2.4L13.8 4.4L13.3 3.5L2 10V17H3V19C3 20.1 3.9 21 5 21H15C16.1 21 17 20.1 17 19V17H18V10H17L16.8 9.6L20.3 7.6L22.1 4.8L20.6 2.2M15 17V19H5V17H15Z" />
+    </g>
+    <g id="mdi-video-input-svideo" transform="translate(576 108) scale(1.5)" fill="#555">
+      <path d="M8,11.5A1.5,1.5 0 0,0 6.5,10A1.5,1.5 0 0,0 5,11.5A1.5,1.5 0 0,0 6.5,13A1.5,1.5 0 0,0 8,11.5M15,6.5A1.5,1.5 0 0,0 13.5,5H10.5A1.5,1.5 0 0,0 9,6.5A1.5,1.5 0 0,0 10.5,8H13.5A1.5,1.5 0 0,0 15,6.5M8.5,15A1.5,1.5 0 0,0 7,16.5A1.5,1.5 0 0,0 8.5,18A1.5,1.5 0 0,0 10,16.5A1.5,1.5 0 0,0 8.5,15M12,1A11,11 0 0,0 1,12A11,11 0 0,0 12,23A11,11 0 0,0 23,12A11,11 0 0,0 12,1M12,21C7.04,21 3,16.96 3,12C3,7.04 7.04,3 12,3C16.96,3 21,7.04 21,12C21,16.96 16.96,21 12,21M17.5,10A1.5,1.5 0 0,0 16,11.5A1.5,1.5 0 0,0 17.5,13A1.5,1.5 0 0,0 19,11.5A1.5,1.5 0 0,0 17.5,10M15.5,15A1.5,1.5 0 0,0 14,16.5A1.5,1.5 0 0,0 15.5,18A1.5,1.5 0 0,0 17,16.5A1.5,1.5 0 0,0 15.5,15Z" />
+    </g>
+    <g id="mdi-video-input-svideo" transform="translate(612 108) scale(1.5)" fill="#fff">
+      <path d="M8,11.5A1.5,1.5 0 0,0 6.5,10A1.5,1.5 0 0,0 5,11.5A1.5,1.5 0 0,0 6.5,13A1.5,1.5 0 0,0 8,11.5M15,6.5A1.5,1.5 0 0,0 13.5,5H10.5A1.5,1.5 0 0,0 9,6.5A1.5,1.5 0 0,0 10.5,8H13.5A1.5,1.5 0 0,0 15,6.5M8.5,15A1.5,1.5 0 0,0 7,16.5A1.5,1.5 0 0,0 8.5,18A1.5,1.5 0 0,0 10,16.5A1.5,1.5 0 0,0 8.5,15M12,1A11,11 0 0,0 1,12A11,11 0 0,0 12,23A11,11 0 0,0 23,12A11,11 0 0,0 12,1M12,21C7.04,21 3,16.96 3,12C3,7.04 7.04,3 12,3C16.96,3 21,7.04 21,12C21,16.96 16.96,21 12,21M17.5,10A1.5,1.5 0 0,0 16,11.5A1.5,1.5 0 0,0 17.5,13A1.5,1.5 0 0,0 19,11.5A1.5,1.5 0 0,0 17.5,10M15.5,15A1.5,1.5 0 0,0 14,16.5A1.5,1.5 0 0,0 15.5,18A1.5,1.5 0 0,0 17,16.5A1.5,1.5 0 0,0 15.5,15Z" />
+    </g>
+    <g id="mdi-video-minus" transform="translate(648 108) scale(1.5)" fill="#555">
+      <path d="M17,10.5V7A1,1 0 0,0 16,6H4A1,1 0 0,0 3,7V17A1,1 0 0,0 4,18H16A1,1 0 0,0 17,17V13.5L21,17.5V6.5L17,10.5M14,13H6V11H14V13Z" />
+    </g>
+    <g id="mdi-video-minus" transform="translate(684 108) scale(1.5)" fill="#fff">
+      <path d="M17,10.5V7A1,1 0 0,0 16,6H4A1,1 0 0,0 3,7V17A1,1 0 0,0 4,18H16A1,1 0 0,0 17,17V13.5L21,17.5V6.5L17,10.5M14,13H6V11H14V13Z" />
+    </g>
+    <g id="mdi-video-off" transform="translate(0 144) scale(1.5)" fill="#555">
+      <path d="M3.27,2L2,3.27L4.73,6H4A1,1 0 0,0 3,7V17A1,1 0 0,0 4,18H16C16.2,18 16.39,17.92 16.54,17.82L19.73,21L21,19.73M21,6.5L17,10.5V7A1,1 0 0,0 16,6H9.82L21,17.18V6.5Z" />
+    </g>
+    <g id="mdi-video-off" transform="translate(36 144) scale(1.5)" fill="#fff">
+      <path d="M3.27,2L2,3.27L4.73,6H4A1,1 0 0,0 3,7V17A1,1 0 0,0 4,18H16C16.2,18 16.39,17.92 16.54,17.82L19.73,21L21,19.73M21,6.5L17,10.5V7A1,1 0 0,0 16,6H9.82L21,17.18V6.5Z" />
+    </g>
+    <g id="mdi-video-off-outline" transform="translate(72 144) scale(1.5)" fill="#555">
+      <path d="M3.41,1.86L2,3.27L4.73,6H4A1,1 0 0,0 3,7V17A1,1 0 0,0 4,18H16C16.21,18 16.39,17.92 16.55,17.82L19.73,21L21.14,19.59L12.28,10.73L3.41,1.86M5,16V8H6.73L14.73,16H5M15,8V10.61L21,16.61V6.5L17,10.5V7A1,1 0 0,0 16,6H10.39L12.39,8H15Z" />
+    </g>
+    <g id="mdi-video-off-outline" transform="translate(108 144) scale(1.5)" fill="#fff">
+      <path d="M3.41,1.86L2,3.27L4.73,6H4A1,1 0 0,0 3,7V17A1,1 0 0,0 4,18H16C16.21,18 16.39,17.92 16.55,17.82L19.73,21L21.14,19.59L12.28,10.73L3.41,1.86M5,16V8H6.73L14.73,16H5M15,8V10.61L21,16.61V6.5L17,10.5V7A1,1 0 0,0 16,6H10.39L12.39,8H15Z" />
+    </g>
+    <g id="mdi-video-outline" transform="translate(144 144) scale(1.5)" fill="#555">
+      <path d="M15,8V16H5V8H15M16,6H4A1,1 0 0,0 3,7V17A1,1 0 0,0 4,18H16A1,1 0 0,0 17,17V13.5L21,17.5V6.5L17,10.5V7A1,1 0 0,0 16,6Z" />
+    </g>
+    <g id="mdi-video-outline" transform="translate(180 144) scale(1.5)" fill="#fff">
+      <path d="M15,8V16H5V8H15M16,6H4A1,1 0 0,0 3,7V17A1,1 0 0,0 4,18H16A1,1 0 0,0 17,17V13.5L21,17.5V6.5L17,10.5V7A1,1 0 0,0 16,6Z" />
+    </g>
+    <g id="mdi-video-plus" transform="translate(216 144) scale(1.5)" fill="#555">
+      <path d="M17,10.5V7A1,1 0 0,0 16,6H4A1,1 0 0,0 3,7V17A1,1 0 0,0 4,18H16A1,1 0 0,0 17,17V13.5L21,17.5V6.5L17,10.5M14,13H11V16H9V13H6V11H9V8H11V11H14V13Z" />
+    </g>
+    <g id="mdi-video-plus" transform="translate(252 144) scale(1.5)" fill="#fff">
+      <path d="M17,10.5V7A1,1 0 0,0 16,6H4A1,1 0 0,0 3,7V17A1,1 0 0,0 4,18H16A1,1 0 0,0 17,17V13.5L21,17.5V6.5L17,10.5M14,13H11V16H9V13H6V11H9V8H11V11H14V13Z" />
+    </g>
+    <g id="mdi-video-stabilization" transform="translate(288 144) scale(1.5)" fill="#555">
+      <path d="M4,4H20A2,2 0 0,1 22,6V18A2,2 0 0,1 20,20H4A2,2 0 0,1 2,18V6A2,2 0 0,1 4,4M4,6V18H20V6H4M7.24,6.58L18.83,9.69L16.76,17.42L5.17,14.31L7.24,6.58Z" />
+    </g>
+    <g id="mdi-video-stabilization" transform="translate(324 144) scale(1.5)" fill="#fff">
+      <path d="M4,4H20A2,2 0 0,1 22,6V18A2,2 0 0,1 20,20H4A2,2 0 0,1 2,18V6A2,2 0 0,1 4,4M4,6V18H20V6H4M7.24,6.58L18.83,9.69L16.76,17.42L5.17,14.31L7.24,6.58Z" />
+    </g>
+    <g id="mdi-video-switch" transform="translate(360 144) scale(1.5)" fill="#555">
+      <path d="M13,15.5V13H7V15.5L3.5,12L7,8.5V11H13V8.5L16.5,12M18,9.5V6A1,1 0 0,0 17,5H3A1,1 0 0,0 2,6V18A1,1 0 0,0 3,19H17A1,1 0 0,0 18,18V14.5L22,18.5V5.5L18,9.5Z" />
+    </g>
+    <g id="mdi-video-switch" transform="translate(396 144) scale(1.5)" fill="#fff">
+      <path d="M13,15.5V13H7V15.5L3.5,12L7,8.5V11H13V8.5L16.5,12M18,9.5V6A1,1 0 0,0 17,5H3A1,1 0 0,0 2,6V18A1,1 0 0,0 3,19H17A1,1 0 0,0 18,18V14.5L22,18.5V5.5L18,9.5Z" />
+    </g>
+    <g id="mdi-video-vintage" transform="translate(432 144) scale(1.5)" fill="#555">
+      <path d="M18,14.5V11A1,1 0 0,0 17,10H16C18.24,8.39 18.76,5.27 17.15,3C15.54,0.78 12.42,0.26 10.17,1.87C9.5,2.35 8.96,3 8.6,3.73C6.25,2.28 3.17,3 1.72,5.37C0.28,7.72 1,10.8 3.36,12.25C3.57,12.37 3.78,12.5 4,12.58V21A1,1 0 0,0 5,22H17A1,1 0 0,0 18,21V17.5L22,21.5V10.5L18,14.5M13,4A2,2 0 0,1 15,6A2,2 0 0,1 13,8A2,2 0 0,1 11,6A2,2 0 0,1 13,4M6,6A2,2 0 0,1 8,8A2,2 0 0,1 6,10A2,2 0 0,1 4,8A2,2 0 0,1 6,6Z" />
+    </g>
+    <g id="mdi-video-vintage" transform="translate(468 144) scale(1.5)" fill="#fff">
+      <path d="M18,14.5V11A1,1 0 0,0 17,10H16C18.24,8.39 18.76,5.27 17.15,3C15.54,0.78 12.42,0.26 10.17,1.87C9.5,2.35 8.96,3 8.6,3.73C6.25,2.28 3.17,3 1.72,5.37C0.28,7.72 1,10.8 3.36,12.25C3.57,12.37 3.78,12.5 4,12.58V21A1,1 0 0,0 5,22H17A1,1 0 0,0 18,21V17.5L22,21.5V10.5L18,14.5M13,4A2,2 0 0,1 15,6A2,2 0 0,1 13,8A2,2 0 0,1 11,6A2,2 0 0,1 13,4M6,6A2,2 0 0,1 8,8A2,2 0 0,1 6,10A2,2 0 0,1 4,8A2,2 0 0,1 6,6Z" />
+    </g>
+    <g id="mdi-video-wireless" transform="translate(504 144) scale(1.5)" fill="#555">
+      <path d="M17,14.5V11A1,1 0 0,0 16,10H4A1,1 0 0,0 3,11V21A1,1 0 0,0 4,22H16A1,1 0 0,0 17,21V17.5L21,21.5V10.5M3,3.86L4.4,5.24C7.5,2.19 12.5,2.19 15.6,5.24L17,3.86C13.14,0.05 6.87,0.05 3,3.86M5.8,6.62L7.2,8C8.75,6.5 11.25,6.5 12.8,8L14.2,6.62C11.88,4.34 8.12,4.34 5.8,6.62Z" />
+    </g>
+    <g id="mdi-video-wireless" transform="translate(540 144) scale(1.5)" fill="#fff">
+      <path d="M17,14.5V11A1,1 0 0,0 16,10H4A1,1 0 0,0 3,11V21A1,1 0 0,0 4,22H16A1,1 0 0,0 17,21V17.5L21,21.5V10.5M3,3.86L4.4,5.24C7.5,2.19 12.5,2.19 15.6,5.24L17,3.86C13.14,0.05 6.87,0.05 3,3.86M5.8,6.62L7.2,8C8.75,6.5 11.25,6.5 12.8,8L14.2,6.62C11.88,4.34 8.12,4.34 5.8,6.62Z" />
+    </g>
+    <g id="mdi-video-wireless-outline" transform="translate(576 144) scale(1.5)" fill="#555">
+      <path d="M15,12V20H5V12H15M16,10H4A1,1 0 0,0 3,11V21A1,1 0 0,0 4,22H16A1,1 0 0,0 17,21V17.5L21,21.5V10.5L17,14.5V11A1,1 0 0,0 16,10M3,3.86L4.4,5.24C7.5,2.19 12.5,2.19 15.6,5.24L17,3.86C13.14,0.05 6.87,0.05 3,3.86M5.8,6.63L7.2,8C8.75,6.5 11.25,6.5 12.8,8L14.2,6.63C11.88,4.34 8.12,4.34 5.8,6.63Z" />
+    </g>
+    <g id="mdi-video-wireless-outline" transform="translate(612 144) scale(1.5)" fill="#fff">
+      <path d="M15,12V20H5V12H15M16,10H4A1,1 0 0,0 3,11V21A1,1 0 0,0 4,22H16A1,1 0 0,0 17,21V17.5L21,21.5V10.5L17,14.5V11A1,1 0 0,0 16,10M3,3.86L4.4,5.24C7.5,2.19 12.5,2.19 15.6,5.24L17,3.86C13.14,0.05 6.87,0.05 3,3.86M5.8,6.63L7.2,8C8.75,6.5 11.25,6.5 12.8,8L14.2,6.63C11.88,4.34 8.12,4.34 5.8,6.63Z" />
+    </g>
+    <g id="mdi-view-agenda" transform="translate(648 144) scale(1.5)" fill="#555">
+      <path d="M21 3H3C2.4 3 2 3.4 2 4V10C2 10.6 2.4 11 3 11H21C21.6 11 22 10.6 22 10V4C22 3.4 21.6 3 21 3M21 13H3C2.4 13 2 13.4 2 14V20C2 20.6 2.4 21 3 21H21C21.6 21 22 20.6 22 20V14C22 13.4 21.6 13 21 13Z" />
+    </g>
+    <g id="mdi-view-agenda" transform="translate(684 144) scale(1.5)" fill="#fff">
+      <path d="M21 3H3C2.4 3 2 3.4 2 4V10C2 10.6 2.4 11 3 11H21C21.6 11 22 10.6 22 10V4C22 3.4 21.6 3 21 3M21 13H3C2.4 13 2 13.4 2 14V20C2 20.6 2.4 21 3 21H21C21.6 21 22 20.6 22 20V14C22 13.4 21.6 13 21 13Z" />
+    </g>
+    <g id="mdi-view-agenda-outline" transform="translate(0 180) scale(1.5)" fill="#555">
+      <path d="M21 13H3A1 1 0 0 0 2 14V20A1 1 0 0 0 3 21H21A1 1 0 0 0 22 20V14A1 1 0 0 0 21 13M20 19H4V15H20M21 3H3A1 1 0 0 0 2 4V10A1 1 0 0 0 3 11H21A1 1 0 0 0 22 10V4A1 1 0 0 0 21 3M20 9H4V5H20Z" />
+    </g>
+    <g id="mdi-view-agenda-outline" transform="translate(36 180) scale(1.5)" fill="#fff">
+      <path d="M21 13H3A1 1 0 0 0 2 14V20A1 1 0 0 0 3 21H21A1 1 0 0 0 22 20V14A1 1 0 0 0 21 13M20 19H4V15H20M21 3H3A1 1 0 0 0 2 4V10A1 1 0 0 0 3 11H21A1 1 0 0 0 22 10V4A1 1 0 0 0 21 3M20 9H4V5H20Z" />
+    </g>
+    <g id="mdi-view-array" transform="translate(72 180) scale(1.5)" fill="#555">
+      <path d="M8,18H17V5H8M18,5V18H21V5M4,18H7V5H4V18Z" />
+    </g>
+    <g id="mdi-view-array" transform="translate(108 180) scale(1.5)" fill="#fff">
+      <path d="M8,18H17V5H8M18,5V18H21V5M4,18H7V5H4V18Z" />
+    </g>
+    <g id="mdi-view-carousel" transform="translate(144 180) scale(1.5)" fill="#555">
+      <path d="M18,6V17H22V6M2,17H6V6H2M7,19H17V4H7V19Z" />
+    </g>
+    <g id="mdi-view-carousel" transform="translate(180 180) scale(1.5)" fill="#fff">
+      <path d="M18,6V17H22V6M2,17H6V6H2M7,19H17V4H7V19Z" />
+    </g>
+    <g id="mdi-view-column" transform="translate(216 180) scale(1.5)" fill="#555">
+      <path d="M16,5V18H21V5M4,18H9V5H4M10,18H15V5H10V18Z" />
+    </g>
+    <g id="mdi-view-column" transform="translate(252 180) scale(1.5)" fill="#fff">
+      <path d="M16,5V18H21V5M4,18H9V5H4M10,18H15V5H10V18Z" />
+    </g>
+    <g id="mdi-view-comfy" transform="translate(288 180) scale(1.5)" fill="#555">
+      <path d="M3,9H7V5H3V9M3,14H7V10H3V14M8,14H12V10H8V14M13,14H17V10H13V14M8,9H12V5H8V9M13,5V9H17V5H13M18,14H22V10H18V14M3,19H7V15H3V19M8,19H12V15H8V19M13,19H17V15H13V19M18,19H22V15H18V19M18,5V9H22V5H18Z" />
+    </g>
+    <g id="mdi-view-comfy" transform="translate(324 180) scale(1.5)" fill="#fff">
+      <path d="M3,9H7V5H3V9M3,14H7V10H3V14M8,14H12V10H8V14M13,14H17V10H13V14M8,9H12V5H8V9M13,5V9H17V5H13M18,14H22V10H18V14M3,19H7V15H3V19M8,19H12V15H8V19M13,19H17V15H13V19M18,19H22V15H18V19M18,5V9H22V5H18Z" />
+    </g>
+    <g id="mdi-view-compact" transform="translate(360 180) scale(1.5)" fill="#555">
+      <path d="M3,19H9V12H3V19M10,19H22V12H10V19M3,5V11H22V5H3Z" />
+    </g>
+    <g id="mdi-view-compact" transform="translate(396 180) scale(1.5)" fill="#fff">
+      <path d="M3,19H9V12H3V19M10,19H22V12H10V19M3,5V11H22V5H3Z" />
+    </g>
+    <g id="mdi-view-compact-outline" transform="translate(432 180) scale(1.5)" fill="#555">
+      <path d="M3,5V19H22V5H3M5,7H20V11H5V7M5,17V13H9V17H5M11,17V13H20V17H11Z" />
+    </g>
+    <g id="mdi-view-compact-outline" transform="translate(468 180) scale(1.5)" fill="#fff">
+      <path d="M3,5V19H22V5H3M5,7H20V11H5V7M5,17V13H9V17H5M11,17V13H20V17H11Z" />
+    </g>
+    <g id="mdi-view-dashboard" transform="translate(504 180) scale(1.5)" fill="#555">
+      <path d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z" />
+    </g>
+    <g id="mdi-view-dashboard" transform="translate(540 180) scale(1.5)" fill="#fff">
+      <path d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z" />
+    </g>
+    <g id="mdi-view-dashboard-outline" transform="translate(576 180) scale(1.5)" fill="#555">
+      <path d="M19,5V7H15V5H19M9,5V11H5V5H9M19,13V19H15V13H19M9,17V19H5V17H9M21,3H13V9H21V3M11,3H3V13H11V3M21,11H13V21H21V11M11,15H3V21H11V15Z" />
+    </g>
+    <g id="mdi-view-dashboard-outline" transform="translate(612 180) scale(1.5)" fill="#fff">
+      <path d="M19,5V7H15V5H19M9,5V11H5V5H9M19,13V19H15V13H19M9,17V19H5V17H9M21,3H13V9H21V3M11,3H3V13H11V3M21,11H13V21H21V11M11,15H3V21H11V15Z" />
+    </g>
+    <g id="mdi-view-dashboard-variant" transform="translate(648 180) scale(1.5)" fill="#555">
+      <path d="M2,5V19H8V5H2M9,5V10H15V5H9M16,5V14H22V5H16M9,11V19H15V11H9M16,15V19H22V15H16Z" />
+    </g>
+    <g id="mdi-view-dashboard-variant" transform="translate(684 180) scale(1.5)" fill="#fff">
+      <path d="M2,5V19H8V5H2M9,5V10H15V5H9M16,5V14H22V5H16M9,11V19H15V11H9M16,15V19H22V15H16Z" />
+    </g>
+    <g id="mdi-view-day" transform="translate(0 216) scale(1.5)" fill="#555">
+      <path d="M2,3V6H21V3M20,8H3A1,1 0 0,0 2,9V15A1,1 0 0,0 3,16H20A1,1 0 0,0 21,15V9A1,1 0 0,0 20,8M2,21H21V18H2V21Z" />
+    </g>
+    <g id="mdi-view-day" transform="translate(36 216) scale(1.5)" fill="#fff">
+      <path d="M2,3V6H21V3M20,8H3A1,1 0 0,0 2,9V15A1,1 0 0,0 3,16H20A1,1 0 0,0 21,15V9A1,1 0 0,0 20,8M2,21H21V18H2V21Z" />
+    </g>
+    <g id="mdi-view-grid" transform="translate(72 216) scale(1.5)" fill="#555">
+      <path d="M3,11H11V3H3M3,21H11V13H3M13,21H21V13H13M13,3V11H21V3" />
+    </g>
+    <g id="mdi-view-grid" transform="translate(108 216) scale(1.5)" fill="#fff">
+      <path d="M3,11H11V3H3M3,21H11V13H3M13,21H21V13H13M13,3V11H21V3" />
+    </g>
+    <g id="mdi-view-grid-outline" transform="translate(144 216) scale(1.5)" fill="#555">
+      <path d="M3 11H11V3H3M5 5H9V9H5M13 21H21V13H13M15 15H19V19H15M3 21H11V13H3M5 15H9V19H5M13 3V11H21V3M19 9H15V5H19Z" />
+    </g>
+    <g id="mdi-view-grid-outline" transform="translate(180 216) scale(1.5)" fill="#fff">
+      <path d="M3 11H11V3H3M5 5H9V9H5M13 21H21V13H13M15 15H19V19H15M3 21H11V13H3M5 15H9V19H5M13 3V11H21V3M19 9H15V5H19Z" />
+    </g>
+    <g id="mdi-view-grid-plus" transform="translate(216 216) scale(1.5)" fill="#555">
+      <path d="M13 3V11H21V3H13M3 21H11V13H3V21M3 3V11H11V3H3M13 16H16V13H18V16H21V18H18V21H16V18H13V16Z" />
+    </g>
+    <g id="mdi-view-grid-plus" transform="translate(252 216) scale(1.5)" fill="#fff">
+      <path d="M13 3V11H21V3H13M3 21H11V13H3V21M3 3V11H11V3H3M13 16H16V13H18V16H21V18H18V21H16V18H13V16Z" />
+    </g>
+    <g id="mdi-view-grid-plus-outline" transform="translate(288 216) scale(1.5)" fill="#555">
+      <path d="M3 21H11V13H3M5 15H9V19H5M3 11H11V3H3M5 5H9V9H5M13 3V11H21V3M19 9H15V5H19M18 16H21V18H18V21H16V18H13V16H16V13H18Z" />
+    </g>
+    <g id="mdi-view-grid-plus-outline" transform="translate(324 216) scale(1.5)" fill="#fff">
+      <path d="M3 21H11V13H3M5 15H9V19H5M3 11H11V3H3M5 5H9V9H5M13 3V11H21V3M19 9H15V5H19M18 16H21V18H18V21H16V18H13V16H16V13H18Z" />
+    </g>
+    <g id="mdi-view-headline" transform="translate(360 216) scale(1.5)" fill="#555">
+      <path d="M4,5V7H21V5M4,11H21V9H4M4,19H21V17H4M4,15H21V13H4V15Z" />
+    </g>
+    <g id="mdi-view-headline" transform="translate(396 216) scale(1.5)" fill="#fff">
+      <path d="M4,5V7H21V5M4,11H21V9H4M4,19H21V17H4M4,15H21V13H4V15Z" />
+    </g>
+    <g id="mdi-view-list" transform="translate(432 216) scale(1.5)" fill="#555">
+      <path d="M9,5V9H21V5M9,19H21V15H9M9,14H21V10H9M4,9H8V5H4M4,19H8V15H4M4,14H8V10H4V14Z" />
+    </g>
+    <g id="mdi-view-list" transform="translate(468 216) scale(1.5)" fill="#fff">
+      <path d="M9,5V9H21V5M9,19H21V15H9M9,14H21V10H9M4,9H8V5H4M4,19H8V15H4M4,14H8V10H4V14Z" />
+    </g>
+    <g id="mdi-view-module" transform="translate(504 216) scale(1.5)" fill="#555">
+      <path d="M16,5V11H21V5M10,11H15V5H10M16,18H21V12H16M10,18H15V12H10M4,18H9V12H4M4,11H9V5H4V11Z" />
+    </g>
+    <g id="mdi-view-module" transform="translate(540 216) scale(1.5)" fill="#fff">
+      <path d="M16,5V11H21V5M10,11H15V5H10M16,18H21V12H16M10,18H15V12H10M4,18H9V12H4M4,11H9V5H4V11Z" />
+    </g>
+    <g id="mdi-view-parallel" transform="translate(576 216) scale(1.5)" fill="#555">
+      <path d="M4,21V3H8V21H4M10,21V3H14V21H10M16,21V3H20V21H16Z" />
+    </g>
+    <g id="mdi-view-parallel" transform="translate(612 216) scale(1.5)" fill="#fff">
+      <path d="M4,21V3H8V21H4M10,21V3H14V21H10M16,21V3H20V21H16Z" />
+    </g>
+    <g id="mdi-view-quilt" transform="translate(648 216) scale(1.5)" fill="#555">
+      <path d="M10,5V11H21V5M16,18H21V12H16M4,18H9V5H4M10,18H15V12H10V18Z" />
+    </g>
+    <g id="mdi-view-quilt" transform="translate(684 216) scale(1.5)" fill="#fff">
+      <path d="M10,5V11H21V5M16,18H21V12H16M4,18H9V5H4M10,18H15V12H10V18Z" />
+    </g>
+    <g id="mdi-view-sequential" transform="translate(0 252) scale(1.5)" fill="#555">
+      <path d="M3,4H21V8H3V4M3,10H21V14H3V10M3,16H21V20H3V16Z" />
+    </g>
+    <g id="mdi-view-sequential" transform="translate(36 252) scale(1.5)" fill="#fff">
+      <path d="M3,4H21V8H3V4M3,10H21V14H3V10M3,16H21V20H3V16Z" />
+    </g>
+    <g id="mdi-view-split-horizontal" transform="translate(72 252) scale(1.5)" fill="#555">
+      <path d="M3,5H21V7H3V5M3,11V9H21V11H3M3,19V13H21V19H3Z" />
+    </g>
+    <g id="mdi-view-split-horizontal" transform="translate(108 252) scale(1.5)" fill="#fff">
+      <path d="M3,5H21V7H3V5M3,11V9H21V11H3M3,19V13H21V19H3Z" />
+    </g>
+    <g id="mdi-view-split-vertical" transform="translate(144 252) scale(1.5)" fill="#555">
+      <path d="M13,5H21V19H13V5M3,5H11V7H3V5M3,11V9H11V11H3M3,19V17H11V19H3M3,15V13H11V15H3Z" />
+    </g>
+    <g id="mdi-view-split-vertical" transform="translate(180 252) scale(1.5)" fill="#fff">
+      <path d="M13,5H21V19H13V5M3,5H11V7H3V5M3,11V9H11V11H3M3,19V17H11V19H3M3,15V13H11V15H3Z" />
+    </g>
+    <g id="mdi-view-stream" transform="translate(216 252) scale(1.5)" fill="#555">
+      <path d="M4,5V11H21V5M4,18H21V12H4V18Z" />
+    </g>
+    <g id="mdi-view-stream" transform="translate(252 252) scale(1.5)" fill="#fff">
+      <path d="M4,5V11H21V5M4,18H21V12H4V18Z" />
+    </g>
+    <g id="mdi-view-week" transform="translate(288 252) scale(1.5)" fill="#555">
+      <path d="M13,5H10A1,1 0 0,0 9,6V18A1,1 0 0,0 10,19H13A1,1 0 0,0 14,18V6A1,1 0 0,0 13,5M20,5H17A1,1 0 0,0 16,6V18A1,1 0 0,0 17,19H20A1,1 0 0,0 21,18V6A1,1 0 0,0 20,5M6,5H3A1,1 0 0,0 2,6V18A1,1 0 0,0 3,19H6A1,1 0 0,0 7,18V6A1,1 0 0,0 6,5Z" />
+    </g>
+    <g id="mdi-view-week" transform="translate(324 252) scale(1.5)" fill="#fff">
+      <path d="M13,5H10A1,1 0 0,0 9,6V18A1,1 0 0,0 10,19H13A1,1 0 0,0 14,18V6A1,1 0 0,0 13,5M20,5H17A1,1 0 0,0 16,6V18A1,1 0 0,0 17,19H20A1,1 0 0,0 21,18V6A1,1 0 0,0 20,5M6,5H3A1,1 0 0,0 2,6V18A1,1 0 0,0 3,19H6A1,1 0 0,0 7,18V6A1,1 0 0,0 6,5Z" />
+    </g>
+    <g id="mdi-vimeo" transform="translate(360 252) scale(1.5)" fill="#555">
+      <path d="M22,7.42C21.91,9.37 20.55,12.04 17.92,15.44C15.2,19 12.9,20.75 11,20.75C9.85,20.75 8.86,19.67 8.05,17.5C7.5,15.54 7,13.56 6.44,11.58C5.84,9.42 5.2,8.34 4.5,8.34C4.36,8.34 3.84,8.66 2.94,9.29L2,8.07C3,7.2 3.96,6.33 4.92,5.46C6.24,4.32 7.23,3.72 7.88,3.66C9.44,3.5 10.4,4.58 10.76,6.86C11.15,9.33 11.42,10.86 11.57,11.46C12,13.5 12.5,14.5 13.05,14.5C13.47,14.5 14.1,13.86 14.94,12.53C15.78,11.21 16.23,10.2 16.29,9.5C16.41,8.36 15.96,7.79 14.94,7.79C14.46,7.79 13.97,7.9 13.46,8.12C14.44,4.89 16.32,3.32 19.09,3.41C21.15,3.47 22.12,4.81 22,7.42Z" />
+    </g>
+    <g id="mdi-vimeo" transform="translate(396 252) scale(1.5)" fill="#fff">
+      <path d="M22,7.42C21.91,9.37 20.55,12.04 17.92,15.44C15.2,19 12.9,20.75 11,20.75C9.85,20.75 8.86,19.67 8.05,17.5C7.5,15.54 7,13.56 6.44,11.58C5.84,9.42 5.2,8.34 4.5,8.34C4.36,8.34 3.84,8.66 2.94,9.29L2,8.07C3,7.2 3.96,6.33 4.92,5.46C6.24,4.32 7.23,3.72 7.88,3.66C9.44,3.5 10.4,4.58 10.76,6.86C11.15,9.33 11.42,10.86 11.57,11.46C12,13.5 12.5,14.5 13.05,14.5C13.47,14.5 14.1,13.86 14.94,12.53C15.78,11.21 16.23,10.2 16.29,9.5C16.41,8.36 15.96,7.79 14.94,7.79C14.46,7.79 13.97,7.9 13.46,8.12C14.44,4.89 16.32,3.32 19.09,3.41C21.15,3.47 22.12,4.81 22,7.42Z" />
+    </g>
+    <g id="mdi-violin" transform="translate(432 252) scale(1.5)" fill="#555">
+      <path d="M11,2A1,1 0 0,0 10,3V5L10,9A0.5,0.5 0 0,0 10.5,9.5H12A0.5,0.5 0 0,1 12.5,10A0.5,0.5 0 0,1 12,10.5H10.5C9.73,10.5 9,9.77 9,9V5.16C7.27,5.6 6,7.13 6,9V10.5A2.5,2.5 0 0,1 8.5,13A2.5,2.5 0 0,1 6,15.5V17C6,19.77 8.23,22 11,22H13C15.77,22 18,19.77 18,17V15.5A2.5,2.5 0 0,1 15.5,13A2.5,2.5 0 0,1 18,10.5V9C18,6.78 16.22,5 14,5V3A1,1 0 0,0 13,2H11M10.75,16.5H13.25L12.75,20H11.25L10.75,16.5Z" />
+    </g>
+    <g id="mdi-violin" transform="translate(468 252) scale(1.5)" fill="#fff">
+      <path d="M11,2A1,1 0 0,0 10,3V5L10,9A0.5,0.5 0 0,0 10.5,9.5H12A0.5,0.5 0 0,1 12.5,10A0.5,0.5 0 0,1 12,10.5H10.5C9.73,10.5 9,9.77 9,9V5.16C7.27,5.6 6,7.13 6,9V10.5A2.5,2.5 0 0,1 8.5,13A2.5,2.5 0 0,1 6,15.5V17C6,19.77 8.23,22 11,22H13C15.77,22 18,19.77 18,17V15.5A2.5,2.5 0 0,1 15.5,13A2.5,2.5 0 0,1 18,10.5V9C18,6.78 16.22,5 14,5V3A1,1 0 0,0 13,2H11M10.75,16.5H13.25L12.75,20H11.25L10.75,16.5Z" />
+    </g>
+    <g id="mdi-virtual-reality" transform="translate(504 252) scale(1.5)" fill="#555">
+      <path d="M5,3C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3H5M6,9H7.5L8.5,12.43L9.5,9H11L9.25,15H7.75L6,9M13,9H16.5C17.35,9 18,9.65 18,10.5V11.5C18,12.1 17.6,12.65 17.1,12.9L18,15H16.5L15.65,13H14.5V15H13V9M14.5,10.5V11.5H16.5V10.5H14.5Z" />
+    </g>
+    <g id="mdi-virtual-reality" transform="translate(540 252) scale(1.5)" fill="#fff">
+      <path d="M5,3C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3H5M6,9H7.5L8.5,12.43L9.5,9H11L9.25,15H7.75L6,9M13,9H16.5C17.35,9 18,9.65 18,10.5V11.5C18,12.1 17.6,12.65 17.1,12.9L18,15H16.5L15.65,13H14.5V15H13V9M14.5,10.5V11.5H16.5V10.5H14.5Z" />
+    </g>
+    <g id="mdi-visual-studio" transform="translate(576 252) scale(1.5)" fill="#555">
+      <path d="M17,8.5L12.25,12.32L17,16V8.5M4.7,18.4L2,16.7V7.7L5,6.7L9.3,10.03L18,2L22,4.5V20L17,22L9.34,14.66L4.7,18.4M5,14L6.86,12.28L5,10.5V14Z" />
+    </g>
+    <g id="mdi-visual-studio" transform="translate(612 252) scale(1.5)" fill="#fff">
+      <path d="M17,8.5L12.25,12.32L17,16V8.5M4.7,18.4L2,16.7V7.7L5,6.7L9.3,10.03L18,2L22,4.5V20L17,22L9.34,14.66L4.7,18.4M5,14L6.86,12.28L5,10.5V14Z" />
+    </g>
+    <g id="mdi-visual-studio-code" transform="translate(648 252) scale(1.5)" fill="#555">
+      <path d="M17,16.47V7.39L11,11.93M2.22,9.19C1.92,8.87 1.91,8.37 2.2,8.04L3.4,6.93C3.6,6.75 4.09,6.67 4.45,6.93L7.87,9.54L15.8,2.29C16.12,1.97 16.67,1.84 17.3,2.17L21.3,4.08C21.66,4.29 22,4.62 22,5.23V18.73C22,19.13 21.71,19.56 21.4,19.73L17,21.83C16.68,21.96 16.08,21.84 15.87,21.63L7.85,14.33L4.45,16.93C4.07,17.19 3.6,17.12 3.4,16.93L2.2,15.83C1.88,15.5 1.92,14.96 2.25,14.63L5.25,11.93" />
+    </g>
+    <g id="mdi-visual-studio-code" transform="translate(684 252) scale(1.5)" fill="#fff">
+      <path d="M17,16.47V7.39L11,11.93M2.22,9.19C1.92,8.87 1.91,8.37 2.2,8.04L3.4,6.93C3.6,6.75 4.09,6.67 4.45,6.93L7.87,9.54L15.8,2.29C16.12,1.97 16.67,1.84 17.3,2.17L21.3,4.08C21.66,4.29 22,4.62 22,5.23V18.73C22,19.13 21.71,19.56 21.4,19.73L17,21.83C16.68,21.96 16.08,21.84 15.87,21.63L7.85,14.33L4.45,16.93C4.07,17.19 3.6,17.12 3.4,16.93L2.2,15.83C1.88,15.5 1.92,14.96 2.25,14.63L5.25,11.93" />
+    </g>
+    <g id="mdi-vk" transform="translate(0 288) scale(1.5)" fill="#555">
+      <path d="M20.8,7.74C20.93,7.32 20.8,7 20.18,7H18.16C17.64,7 17.41,7.27 17.28,7.57C17.28,7.57 16.25,10.08 14.79,11.72C14.31,12.19 14.1,12.34 13.84,12.34C13.71,12.34 13.5,12.19 13.5,11.76V7.74C13.5,7.23 13.38,7 12.95,7H9.76C9.44,7 9.25,7.24 9.25,7.47C9.25,7.95 10,8.07 10.05,9.44V12.42C10.05,13.08 9.93,13.2 9.68,13.2C9,13.2 7.32,10.67 6.33,7.79C6.13,7.23 5.94,7 5.42,7H3.39C2.82,7 2.7,7.27 2.7,7.57C2.7,8.11 3.39,10.77 5.9,14.29C7.57,16.7 9.93,18 12.08,18C13.37,18 13.53,17.71 13.53,17.21V15.39C13.53,14.82 13.65,14.7 14.06,14.7C14.36,14.7 14.87,14.85 16.07,16C17.45,17.38 17.67,18 18.45,18H20.47C21.05,18 21.34,17.71 21.18,17.14C21,16.57 20.34,15.74 19.47,14.76C19,14.21 18.29,13.61 18.07,13.3C17.77,12.92 17.86,12.75 18.07,12.4C18.07,12.4 20.54,8.93 20.8,7.74Z" />
+    </g>
+    <g id="mdi-vk" transform="translate(36 288) scale(1.5)" fill="#fff">
+      <path d="M20.8,7.74C20.93,7.32 20.8,7 20.18,7H18.16C17.64,7 17.41,7.27 17.28,7.57C17.28,7.57 16.25,10.08 14.79,11.72C14.31,12.19 14.1,12.34 13.84,12.34C13.71,12.34 13.5,12.19 13.5,11.76V7.74C13.5,7.23 13.38,7 12.95,7H9.76C9.44,7 9.25,7.24 9.25,7.47C9.25,7.95 10,8.07 10.05,9.44V12.42C10.05,13.08 9.93,13.2 9.68,13.2C9,13.2 7.32,10.67 6.33,7.79C6.13,7.23 5.94,7 5.42,7H3.39C2.82,7 2.7,7.27 2.7,7.57C2.7,8.11 3.39,10.77 5.9,14.29C7.57,16.7 9.93,18 12.08,18C13.37,18 13.53,17.71 13.53,17.21V15.39C13.53,14.82 13.65,14.7 14.06,14.7C14.36,14.7 14.87,14.85 16.07,16C17.45,17.38 17.67,18 18.45,18H20.47C21.05,18 21.34,17.71 21.18,17.14C21,16.57 20.34,15.74 19.47,14.76C19,14.21 18.29,13.61 18.07,13.3C17.77,12.92 17.86,12.75 18.07,12.4C18.07,12.4 20.54,8.93 20.8,7.74Z" />
+    </g>
+    <g id="mdi-vk-box" transform="translate(72 288) scale(1.5)" fill="#555">
+      <path d="M5,3A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3H5M5.5,8.5H7C7.36,8.5 7.5,8.66 7.64,9.07C8.36,11.17 9.57,13 10.07,13C10.26,13 10.35,12.92 10.35,12.45V10.28C10.29,9.28 9.76,9.19 9.76,8.84C9.76,8.67 9.9,8.5 10.14,8.5H12.45C12.77,8.5 12.87,8.67 12.87,9.04V11.96C12.87,12.27 13,12.38 13.1,12.38C13.29,12.38 13.45,12.27 13.79,11.93C14.85,10.74 15.6,8.92 15.6,8.92C15.7,8.7 15.87,8.5 16.24,8.5H17.71C18.16,8.5 18.26,8.73 18.16,9.04C17.97,9.9 16.18,12.43 16.18,12.43C16,12.68 15.96,12.8 16.18,13.09C16.33,13.3 16.85,13.74 17.19,14.15C17.83,14.86 18.3,15.46 18.44,15.87C18.56,16.29 18.35,16.5 17.93,16.5H16.45C15.89,16.5 15.73,16.05 14.73,15.05C13.85,14.21 13.5,14.1 13.26,14.1C12.96,14.1 12.87,14.18 12.87,14.61V15.93C12.87,16.29 12.76,16.5 11.82,16.5C10.26,16.5 8.54,15.55 7.33,13.8C5.5,11.24 5,9.31 5,8.92C5,8.7 5.08,8.5 5.5,8.5Z" />
+    </g>
+    <g id="mdi-vk-box" transform="translate(108 288) scale(1.5)" fill="#fff">
+      <path d="M5,3A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3H5M5.5,8.5H7C7.36,8.5 7.5,8.66 7.64,9.07C8.36,11.17 9.57,13 10.07,13C10.26,13 10.35,12.92 10.35,12.45V10.28C10.29,9.28 9.76,9.19 9.76,8.84C9.76,8.67 9.9,8.5 10.14,8.5H12.45C12.77,8.5 12.87,8.67 12.87,9.04V11.96C12.87,12.27 13,12.38 13.1,12.38C13.29,12.38 13.45,12.27 13.79,11.93C14.85,10.74 15.6,8.92 15.6,8.92C15.7,8.7 15.87,8.5 16.24,8.5H17.71C18.16,8.5 18.26,8.73 18.16,9.04C17.97,9.9 16.18,12.43 16.18,12.43C16,12.68 15.96,12.8 16.18,13.09C16.33,13.3 16.85,13.74 17.19,14.15C17.83,14.86 18.3,15.46 18.44,15.87C18.56,16.29 18.35,16.5 17.93,16.5H16.45C15.89,16.5 15.73,16.05 14.73,15.05C13.85,14.21 13.5,14.1 13.26,14.1C12.96,14.1 12.87,14.18 12.87,14.61V15.93C12.87,16.29 12.76,16.5 11.82,16.5C10.26,16.5 8.54,15.55 7.33,13.8C5.5,11.24 5,9.31 5,8.92C5,8.7 5.08,8.5 5.5,8.5Z" />
+    </g>
+    <g id="mdi-vk-circle" transform="translate(144 288) scale(1.5)" fill="#555">
+      <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M5.5,8.5H7C7.36,8.5 7.5,8.66 7.64,9.07C8.36,11.17 9.57,13 10.07,13C10.26,13 10.35,12.92 10.35,12.45V10.28C10.29,9.28 9.76,9.19 9.76,8.84C9.76,8.67 9.9,8.5 10.14,8.5H12.45C12.77,8.5 12.87,8.67 12.87,9.04V11.96C12.87,12.27 13,12.38 13.1,12.38C13.29,12.38 13.45,12.27 13.79,11.93C14.85,10.74 15.6,8.92 15.6,8.92C15.7,8.7 15.87,8.5 16.24,8.5H17.71C18.16,8.5 18.26,8.73 18.16,9.04C17.97,9.9 16.18,12.43 16.18,12.43C16,12.68 15.96,12.8 16.18,13.09C16.33,13.3 16.85,13.74 17.19,14.15C17.83,14.86 18.3,15.46 18.44,15.87C18.56,16.29 18.35,16.5 17.93,16.5H16.45C15.89,16.5 15.73,16.05 14.73,15.05C13.85,14.21 13.5,14.1 13.26,14.1C12.96,14.1 12.87,14.18 12.87,14.61V15.93C12.87,16.29 12.76,16.5 11.82,16.5C10.26,16.5 8.54,15.55 7.33,13.8C5.5,11.24 5,9.31 5,8.92C5,8.7 5.08,8.5 5.5,8.5Z" />
+    </g>
+    <g id="mdi-vk-circle" transform="translate(180 288) scale(1.5)" fill="#fff">
+      <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M5.5,8.5H7C7.36,8.5 7.5,8.66 7.64,9.07C8.36,11.17 9.57,13 10.07,13C10.26,13 10.35,12.92 10.35,12.45V10.28C10.29,9.28 9.76,9.19 9.76,8.84C9.76,8.67 9.9,8.5 10.14,8.5H12.45C12.77,8.5 12.87,8.67 12.87,9.04V11.96C12.87,12.27 13,12.38 13.1,12.38C13.29,12.38 13.45,12.27 13.79,11.93C14.85,10.74 15.6,8.92 15.6,8.92C15.7,8.7 15.87,8.5 16.24,8.5H17.71C18.16,8.5 18.26,8.73 18.16,9.04C17.97,9.9 16.18,12.43 16.18,12.43C16,12.68 15.96,12.8 16.18,13.09C16.33,13.3 16.85,13.74 17.19,14.15C17.83,14.86 18.3,15.46 18.44,15.87C18.56,16.29 18.35,16.5 17.93,16.5H16.45C15.89,16.5 15.73,16.05 14.73,15.05C13.85,14.21 13.5,14.1 13.26,14.1C12.96,14.1 12.87,14.18 12.87,14.61V15.93C12.87,16.29 12.76,16.5 11.82,16.5C10.26,16.5 8.54,15.55 7.33,13.8C5.5,11.24 5,9.31 5,8.92C5,8.7 5.08,8.5 5.5,8.5Z" />
+    </g>
+    <g id="mdi-vlc" transform="translate(216 288) scale(1.5)" fill="#555">
+      <path d="M12,1C11.58,1 11.19,1.23 11,1.75L9.88,4.88C10.36,5.4 11.28,5.5 12,5.5C12.72,5.5 13.64,5.4 14.13,4.88L13,1.75C12.82,1.25 12.42,1 12,1M8.44,8.91L7,12.91C8.07,14.27 10.26,14.5 12,14.5C13.74,14.5 15.93,14.27 17,12.91L15.56,8.91C14.76,9.83 13.24,10 12,10C10.76,10 9.24,9.83 8.44,8.91M5.44,15C4.62,15 3.76,15.65 3.53,16.44L2.06,21.56C1.84,22.35 2.3,23 3.13,23H20.88C21.7,23 22.16,22.35 21.94,21.56L20.47,16.44C20.24,15.65 19.38,15 18.56,15H17.75L18.09,15.97C18.21,16.29 18.29,16.69 18.09,16.97C16.84,18.7 14.14,19 12,19C9.86,19 7.16,18.7 5.91,16.97C5.71,16.69 5.79,16.29 5.91,15.97L6.25,15H5.44Z" />
+    </g>
+    <g id="mdi-vlc" transform="translate(252 288) scale(1.5)" fill="#fff">
+      <path d="M12,1C11.58,1 11.19,1.23 11,1.75L9.88,4.88C10.36,5.4 11.28,5.5 12,5.5C12.72,5.5 13.64,5.4 14.13,4.88L13,1.75C12.82,1.25 12.42,1 12,1M8.44,8.91L7,12.91C8.07,14.27 10.26,14.5 12,14.5C13.74,14.5 15.93,14.27 17,12.91L15.56,8.91C14.76,9.83 13.24,10 12,10C10.76,10 9.24,9.83 8.44,8.91M5.44,15C4.62,15 3.76,15.65 3.53,16.44L2.06,21.56C1.84,22.35 2.3,23 3.13,23H20.88C21.7,23 22.16,22.35 21.94,21.56L20.47,16.44C20.24,15.65 19.38,15 18.56,15H17.75L18.09,15.97C18.21,16.29 18.29,16.69 18.09,16.97C16.84,18.7 14.14,19 12,19C9.86,19 7.16,18.7 5.91,16.97C5.71,16.69 5.79,16.29 5.91,15.97L6.25,15H5.44Z" />
+    </g>
+    <g id="mdi-voice" transform="translate(288 288) scale(1.5)" fill="#555">
+      <path d="M9,5A4,4 0 0,1 13,9A4,4 0 0,1 9,13A4,4 0 0,1 5,9A4,4 0 0,1 9,5M9,15C11.67,15 17,16.34 17,19V21H1V19C1,16.34 6.33,15 9,15M16.76,5.36C18.78,7.56 18.78,10.61 16.76,12.63L15.08,10.94C15.92,9.76 15.92,8.23 15.08,7.05L16.76,5.36M20.07,2C24,6.05 23.97,12.11 20.07,16L18.44,14.37C21.21,11.19 21.21,6.65 18.44,3.63L20.07,2Z" />
+    </g>
+    <g id="mdi-voice" transform="translate(324 288) scale(1.5)" fill="#fff">
+      <path d="M9,5A4,4 0 0,1 13,9A4,4 0 0,1 9,13A4,4 0 0,1 5,9A4,4 0 0,1 9,5M9,15C11.67,15 17,16.34 17,19V21H1V19C1,16.34 6.33,15 9,15M16.76,5.36C18.78,7.56 18.78,10.61 16.76,12.63L15.08,10.94C15.92,9.76 15.92,8.23 15.08,7.05L16.76,5.36M20.07,2C24,6.05 23.97,12.11 20.07,16L18.44,14.37C21.21,11.19 21.21,6.65 18.44,3.63L20.07,2Z" />
+    </g>
+    <g id="mdi-voice-off" transform="translate(360 288) scale(1.5)" fill="#555">
+      <path d="M2,3.27L3.28,2L22,20.72L20.73,22L16.73,18C16.9,18.31 17,18.64 17,19V21H1V19C1,16.34 6.33,15 9,15C10.77,15 13.72,15.59 15.5,16.77L11.12,12.39C10.5,12.78 9.78,13 9,13A4,4 0 0,1 5,9C5,8.22 5.22,7.5 5.61,6.88L2,3.27M9,5A4,4 0 0,1 13,9V9.17L8.83,5H9M16.76,5.36C18.78,7.56 18.78,10.61 16.76,12.63L15.08,10.94C15.92,9.76 15.92,8.23 15.08,7.05L16.76,5.36M20.07,2C24,6.05 23.97,12.11 20.07,16L18.44,14.37C21.21,11.19 21.21,6.65 18.44,3.63L20.07,2Z" />
+    </g>
+    <g id="mdi-voice-off" transform="translate(396 288) scale(1.5)" fill="#fff">
+      <path d="M2,3.27L3.28,2L22,20.72L20.73,22L16.73,18C16.9,18.31 17,18.64 17,19V21H1V19C1,16.34 6.33,15 9,15C10.77,15 13.72,15.59 15.5,16.77L11.12,12.39C10.5,12.78 9.78,13 9,13A4,4 0 0,1 5,9C5,8.22 5.22,7.5 5.61,6.88L2,3.27M9,5A4,4 0 0,1 13,9V9.17L8.83,5H9M16.76,5.36C18.78,7.56 18.78,10.61 16.76,12.63L15.08,10.94C15.92,9.76 15.92,8.23 15.08,7.05L16.76,5.36M20.07,2C24,6.05 23.97,12.11 20.07,16L18.44,14.37C21.21,11.19 21.21,6.65 18.44,3.63L20.07,2Z" />
+    </g>
+    <g id="mdi-voicemail" transform="translate(432 288) scale(1.5)" fill="#555">
+      <path d="M18.5,15A3.5,3.5 0 0,1 15,11.5A3.5,3.5 0 0,1 18.5,8A3.5,3.5 0 0,1 22,11.5A3.5,3.5 0 0,1 18.5,15M5.5,15A3.5,3.5 0 0,1 2,11.5A3.5,3.5 0 0,1 5.5,8A3.5,3.5 0 0,1 9,11.5A3.5,3.5 0 0,1 5.5,15M18.5,6A5.5,5.5 0 0,0 13,11.5C13,12.83 13.47,14.05 14.26,15H9.74C10.53,14.05 11,12.83 11,11.5A5.5,5.5 0 0,0 5.5,6A5.5,5.5 0 0,0 0,11.5A5.5,5.5 0 0,0 5.5,17H18.5A5.5,5.5 0 0,0 24,11.5A5.5,5.5 0 0,0 18.5,6Z" />
+    </g>
+    <g id="mdi-voicemail" transform="translate(468 288) scale(1.5)" fill="#fff">
+      <path d="M18.5,15A3.5,3.5 0 0,1 15,11.5A3.5,3.5 0 0,1 18.5,8A3.5,3.5 0 0,1 22,11.5A3.5,3.5 0 0,1 18.5,15M5.5,15A3.5,3.5 0 0,1 2,11.5A3.5,3.5 0 0,1 5.5,8A3.5,3.5 0 0,1 9,11.5A3.5,3.5 0 0,1 5.5,15M18.5,6A5.5,5.5 0 0,0 13,11.5C13,12.83 13.47,14.05 14.26,15H9.74C10.53,14.05 11,12.83 11,11.5A5.5,5.5 0 0,0 5.5,6A5.5,5.5 0 0,0 0,11.5A5.5,5.5 0 0,0 5.5,17H18.5A5.5,5.5 0 0,0 24,11.5A5.5,5.5 0 0,0 18.5,6Z" />
+    </g>
+    <g id="mdi-volleyball" transform="translate(504 288) scale(1.5)" fill="#555">
+      <path d="M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M13.6,20.35C15.96,18.04 17.69,15.08 18.5,11.76C17.84,11.62 17.18,11.54 16.5,11.5C15.56,15.11 13.41,18.22 10.5,20.37C11,20.45 11.5,20.5 12,20.5C12.55,20.5 13.08,20.45 13.6,20.35M9.23,20.04C12.23,18.07 14.5,15.05 15.46,11.5C14.71,11.55 13.97,11.65 13.27,11.81C12.18,14.89 9.97,17.44 7.13,18.97C7.77,19.42 8.5,19.78 9.23,20.04M20.5,12.37C20.16,12.23 19.81,12.11 19.46,12C18.76,14.9 17.39,17.53 15.54,19.73C18.36,18.44 20.35,15.64 20.5,12.37M3.56,11.04C3.5,11.35 3.5,11.68 3.5,12C3.5,14.5 4.57,16.73 6.27,18.28C6.86,18 7.41,17.66 7.94,17.29C6.08,15.54 4.58,13.41 3.56,11.04M5.33,6.74C4.73,7.5 4.26,8.35 3.95,9.28C4.92,12.13 6.58,14.66 8.74,16.67C9.25,16.24 9.72,15.77 10.15,15.26C7.74,13.03 6,10.08 5.33,6.74M8.04,4.5C7.36,4.85 6.73,5.3 6.18,5.82C6.71,9.21 8.37,12.23 10.77,14.47C11.17,13.91 11.5,13.32 11.82,12.7C9.68,10.56 8.28,7.69 8.04,4.5M19.96,9.03C18.7,8.68 17.37,8.5 16,8.5C14.1,8.5 12.28,8.85 10.61,9.5C10.96,10.1 11.35,10.67 11.8,11.2C13.12,10.75 14.53,10.5 16,10.5C17.57,10.5 19.08,10.78 20.47,11.29C20.4,10.5 20.23,9.74 19.96,9.03M17.54,5.57C17.03,5.5 16.5,5.5 16,5.5C13.69,5.5 11.47,5.94 9.44,6.73C9.62,7.38 9.86,8 10.14,8.61C11.96,7.89 13.93,7.5 16,7.5C17.18,7.5 18.32,7.63 19.42,7.87C18.93,7 18.29,6.21 17.54,5.57M16,4.5C14.79,3.87 13.44,3.5 12,3.5C10.95,3.5 9.94,3.7 9,4.05C9.04,4.63 9.11,5.2 9.21,5.75C11.31,4.95 13.6,4.5 16,4.5Z" />
+    </g>
+    <g id="mdi-volleyball" transform="translate(540 288) scale(1.5)" fill="#fff">
+      <path d="M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M13.6,20.35C15.96,18.04 17.69,15.08 18.5,11.76C17.84,11.62 17.18,11.54 16.5,11.5C15.56,15.11 13.41,18.22 10.5,20.37C11,20.45 11.5,20.5 12,20.5C12.55,20.5 13.08,20.45 13.6,20.35M9.23,20.04C12.23,18.07 14.5,15.05 15.46,11.5C14.71,11.55 13.97,11.65 13.27,11.81C12.18,14.89 9.97,17.44 7.13,18.97C7.77,19.42 8.5,19.78 9.23,20.04M20.5,12.37C20.16,12.23 19.81,12.11 19.46,12C18.76,14.9 17.39,17.53 15.54,19.73C18.36,18.44 20.35,15.64 20.5,12.37M3.56,11.04C3.5,11.35 3.5,11.68 3.5,12C3.5,14.5 4.57,16.73 6.27,18.28C6.86,18 7.41,17.66 7.94,17.29C6.08,15.54 4.58,13.41 3.56,11.04M5.33,6.74C4.73,7.5 4.26,8.35 3.95,9.28C4.92,12.13 6.58,14.66 8.74,16.67C9.25,16.24 9.72,15.77 10.15,15.26C7.74,13.03 6,10.08 5.33,6.74M8.04,4.5C7.36,4.85 6.73,5.3 6.18,5.82C6.71,9.21 8.37,12.23 10.77,14.47C11.17,13.91 11.5,13.32 11.82,12.7C9.68,10.56 8.28,7.69 8.04,4.5M19.96,9.03C18.7,8.68 17.37,8.5 16,8.5C14.1,8.5 12.28,8.85 10.61,9.5C10.96,10.1 11.35,10.67 11.8,11.2C13.12,10.75 14.53,10.5 16,10.5C17.57,10.5 19.08,10.78 20.47,11.29C20.4,10.5 20.23,9.74 19.96,9.03M17.54,5.57C17.03,5.5 16.5,5.5 16,5.5C13.69,5.5 11.47,5.94 9.44,6.73C9.62,7.38 9.86,8 10.14,8.61C11.96,7.89 13.93,7.5 16,7.5C17.18,7.5 18.32,7.63 19.42,7.87C18.93,7 18.29,6.21 17.54,5.57M16,4.5C14.79,3.87 13.44,3.5 12,3.5C10.95,3.5 9.94,3.7 9,4.05C9.04,4.63 9.11,5.2 9.21,5.75C11.31,4.95 13.6,4.5 16,4.5Z" />
+    </g>
+    <g id="mdi-volume-high" transform="translate(576 288) scale(1.5)" fill="#555">
+      <path d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" />
+    </g>
+    <g id="mdi-volume-high" transform="translate(612 288) scale(1.5)" fill="#fff">
+      <path d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" />
+    </g>
+    <g id="mdi-volume-low" transform="translate(648 288) scale(1.5)" fill="#555">
+      <path d="M7,9V15H11L16,20V4L11,9H7Z" />
+    </g>
+    <g id="mdi-volume-low" transform="translate(684 288) scale(1.5)" fill="#fff">
+      <path d="M7,9V15H11L16,20V4L11,9H7Z" />
+    </g>
+    <g id="mdi-volume-medium" transform="translate(0 324) scale(1.5)" fill="#555">
+      <path d="M5,9V15H9L14,20V4L9,9M18.5,12C18.5,10.23 17.5,8.71 16,7.97V16C17.5,15.29 18.5,13.76 18.5,12Z" />
+    </g>
+    <g id="mdi-volume-medium" transform="translate(36 324) scale(1.5)" fill="#fff">
+      <path d="M5,9V15H9L14,20V4L9,9M18.5,12C18.5,10.23 17.5,8.71 16,7.97V16C17.5,15.29 18.5,13.76 18.5,12Z" />
+    </g>
+    <g id="mdi-volume-minus" transform="translate(72 324) scale(1.5)" fill="#555">
+      <path d="M3,9H7L12,4V20L7,15H3V9M14,11H22V13H14V11Z" />
+    </g>
+    <g id="mdi-volume-minus" transform="translate(108 324) scale(1.5)" fill="#fff">
+      <path d="M3,9H7L12,4V20L7,15H3V9M14,11H22V13H14V11Z" />
+    </g>
+    <g id="mdi-volume-mute" transform="translate(144 324) scale(1.5)" fill="#555">
+      <path d="M3,9H7L12,4V20L7,15H3V9M16.59,12L14,9.41L15.41,8L18,10.59L20.59,8L22,9.41L19.41,12L22,14.59L20.59,16L18,13.41L15.41,16L14,14.59L16.59,12Z" />
+    </g>
+    <g id="mdi-volume-mute" transform="translate(180 324) scale(1.5)" fill="#fff">
+      <path d="M3,9H7L12,4V20L7,15H3V9M16.59,12L14,9.41L15.41,8L18,10.59L20.59,8L22,9.41L19.41,12L22,14.59L20.59,16L18,13.41L15.41,16L14,14.59L16.59,12Z" />
+    </g>
+    <g id="mdi-volume-off" transform="translate(216 324) scale(1.5)" fill="#555">
+      <path d="M12,4L9.91,6.09L12,8.18M4.27,3L3,4.27L7.73,9H3V15H7L12,20V13.27L16.25,17.53C15.58,18.04 14.83,18.46 14,18.7V20.77C15.38,20.45 16.63,19.82 17.68,18.96L19.73,21L21,19.73L12,10.73M19,12C19,12.94 18.8,13.82 18.46,14.64L19.97,16.15C20.62,14.91 21,13.5 21,12C21,7.72 18,4.14 14,3.23V5.29C16.89,6.15 19,8.83 19,12M16.5,12C16.5,10.23 15.5,8.71 14,7.97V10.18L16.45,12.63C16.5,12.43 16.5,12.21 16.5,12Z" />
+    </g>
+    <g id="mdi-volume-off" transform="translate(252 324) scale(1.5)" fill="#fff">
+      <path d="M12,4L9.91,6.09L12,8.18M4.27,3L3,4.27L7.73,9H3V15H7L12,20V13.27L16.25,17.53C15.58,18.04 14.83,18.46 14,18.7V20.77C15.38,20.45 16.63,19.82 17.68,18.96L19.73,21L21,19.73L12,10.73M19,12C19,12.94 18.8,13.82 18.46,14.64L19.97,16.15C20.62,14.91 21,13.5 21,12C21,7.72 18,4.14 14,3.23V5.29C16.89,6.15 19,8.83 19,12M16.5,12C16.5,10.23 15.5,8.71 14,7.97V10.18L16.45,12.63C16.5,12.43 16.5,12.21 16.5,12Z" />
+    </g>
+    <g id="mdi-volume-plus" transform="translate(288 324) scale(1.5)" fill="#555">
+      <path d="M3,9H7L12,4V20L7,15H3V9M14,11H17V8H19V11H22V13H19V16H17V13H14V11Z" />
+    </g>
+    <g id="mdi-volume-plus" transform="translate(324 324) scale(1.5)" fill="#fff">
+      <path d="M3,9H7L12,4V20L7,15H3V9M14,11H17V8H19V11H22V13H19V16H17V13H14V11Z" />
+    </g>
+    <g id="mdi-volume-source" transform="translate(360 324) scale(1.5)" fill="#555">
+      <path d="M3 9V15H7L12 20V4L7 9H3M16 15H14V9H16V15M20 19H18V5H20V19Z" />
+    </g>
+    <g id="mdi-volume-source" transform="translate(396 324) scale(1.5)" fill="#fff">
+      <path d="M3 9V15H7L12 20V4L7 9H3M16 15H14V9H16V15M20 19H18V5H20V19Z" />
+    </g>
+    <g id="mdi-volume-variant-off" transform="translate(432 324) scale(1.5)" fill="#555">
+      <path d="M5.64,3.64L21.36,19.36L19.95,20.78L16,16.83V20L11,15H7V9H8.17L4.22,5.05L5.64,3.64M16,4V11.17L12.41,7.58L16,4Z" />
+    </g>
+    <g id="mdi-volume-variant-off" transform="translate(468 324) scale(1.5)" fill="#fff">
+      <path d="M5.64,3.64L21.36,19.36L19.95,20.78L16,16.83V20L11,15H7V9H8.17L4.22,5.05L5.64,3.64M16,4V11.17L12.41,7.58L16,4Z" />
+    </g>
+    <g id="mdi-volume-vibrate" transform="translate(504 324) scale(1.5)" fill="#555">
+      <path d="M4 9V15H8L13 20V4L8 9H4M16.55 2.47L15.5 3.53L17.93 6L15 9L17.93 12L15 15L17.93 18L15.5 20.47L16.55 21.53L20 18L17.07 15L20 12L17.07 9L20 6L16.55 2.47Z" />
+    </g>
+    <g id="mdi-volume-vibrate" transform="translate(540 324) scale(1.5)" fill="#fff">
+      <path d="M4 9V15H8L13 20V4L8 9H4M16.55 2.47L15.5 3.53L17.93 6L15 9L17.93 12L15 15L17.93 18L15.5 20.47L16.55 21.53L20 18L17.07 15L20 12L17.07 9L20 6L16.55 2.47Z" />
+    </g>
+    <g id="mdi-vote" transform="translate(576 324) scale(1.5)" fill="#555">
+      <path d="M18,13H17.32L15.32,15H17.23L19,17H5L6.78,15H8.83L6.83,13H6L3,16V20A2,2 0 0,0 5,22H19A2,2 0 0,0 21,20V16L18,13M17,7.95L12.05,12.9L8.5,9.36L13.46,4.41L17,7.95M12.76,2.29L6.39,8.66C6,9.05 6,9.68 6.39,10.07L11.34,15C11.73,15.41 12.36,15.41 12.75,15L19.11,8.66C19.5,8.27 19.5,7.64 19.11,7.25L14.16,2.3C13.78,1.9 13.15,1.9 12.76,2.29Z" />
+    </g>
+    <g id="mdi-vote" transform="translate(612 324) scale(1.5)" fill="#fff">
+      <path d="M18,13H17.32L15.32,15H17.23L19,17H5L6.78,15H8.83L6.83,13H6L3,16V20A2,2 0 0,0 5,22H19A2,2 0 0,0 21,20V16L18,13M17,7.95L12.05,12.9L8.5,9.36L13.46,4.41L17,7.95M12.76,2.29L6.39,8.66C6,9.05 6,9.68 6.39,10.07L11.34,15C11.73,15.41 12.36,15.41 12.75,15L19.11,8.66C19.5,8.27 19.5,7.64 19.11,7.25L14.16,2.3C13.78,1.9 13.15,1.9 12.76,2.29Z" />
+    </g>
+    <g id="mdi-vote-outline" transform="translate(648 324) scale(1.5)" fill="#555">
+      <path d="M18,13L21,16V20C21,21.11 20.1,22 19,22H5C3.89,22 3,21.1 3,20V16L6,13H6.83L8.83,15H6.78L5,17H19L17.23,15H15.32L17.32,13H18M19,20V19H5V20H19M11.34,15L6.39,10.07C6,9.68 6,9.05 6.39,8.66L12.76,2.29C13.15,1.9 13.78,1.9 14.16,2.3L19.11,7.25C19.5,7.64 19.5,8.27 19.11,8.66L12.75,15C12.36,15.41 11.73,15.41 11.34,15M13.46,4.41L8.5,9.36L12.05,12.9L17,7.95L13.46,4.41Z" />
+    </g>
+    <g id="mdi-vote-outline" transform="translate(684 324) scale(1.5)" fill="#fff">
+      <path d="M18,13L21,16V20C21,21.11 20.1,22 19,22H5C3.89,22 3,21.1 3,20V16L6,13H6.83L8.83,15H6.78L5,17H19L17.23,15H15.32L17.32,13H18M19,20V19H5V20H19M11.34,15L6.39,10.07C6,9.68 6,9.05 6.39,8.66L12.76,2.29C13.15,1.9 13.78,1.9 14.16,2.3L19.11,7.25C19.5,7.64 19.5,8.27 19.11,8.66L12.75,15C12.36,15.41 11.73,15.41 11.34,15M13.46,4.41L8.5,9.36L12.05,12.9L17,7.95L13.46,4.41Z" />
+    </g>
+  </svg>
