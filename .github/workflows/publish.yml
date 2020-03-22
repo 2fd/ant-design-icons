@@ -1,4 +1,4 @@
-name: publishing
+name: publish
 
 on:
   push:
@@ -17,7 +17,7 @@ jobs:
       - name: installing
         run: npm ci
       - name: building
-        run: npm run build:icons && npm run build:site -- --public-url /ant-design-icons/
+        run: npm run build:src && npm run build:docs -- --public-url /ant-design-icons/ && npm run build:lib
       - name: releasing
         run: npm run semantic-release
         env:
