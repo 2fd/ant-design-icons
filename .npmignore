@@ -1,0 +1,7 @@
+.next
+.cache
+.ds_store
+dist/
+docs/
+static/
+src/

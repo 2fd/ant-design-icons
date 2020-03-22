@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import Icon from 'antd/lib/icon'
+import AntDesignOutlined from '@ant-design/icons/AntDesignOutlined'
 import MaterialDesign from '../src/MaterialDesign'
 import HeartOutline from '../src/HeartOutline'
 import Plus from '../src/Plus'
@@ -12,7 +12,7 @@ export type HeaderProps = React.HTMLProps<HTMLDivElement>
 
 export default function Header (props: HeaderProps) {
   return <div {...props} className={['Logo', props.className].filter(Boolean).join(' ')}>
-    <Icon type="ant-design" className="anticon__antd" />
+    <AntDesignOutlined className="anticon__antd" />
     <Plus className="anticon__plus" />
     <MaterialDesign className="anticon__md" />
     <Equal className="anticon__equal" />

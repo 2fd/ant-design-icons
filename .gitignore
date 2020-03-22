@@ -61,7 +61,8 @@ typings/
 .next
 .cache
 .ds_store
-dist
+lib/
+dist/
 docs/
 static/icons/*.svg
 static/icons/*.css
