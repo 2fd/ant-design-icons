@@ -8,11 +8,11 @@
   },
   "scripts": {
     "build": "npm run build:src && npm run build:docs && npm run build:lib",
-    "build:lib": "rm -rf lib && tsc -p .",
-    "build:src": "rm src/*.tsx && ts-node build",
+    "build:lib": "tsc -p .",
+    "build:src": "ts-node build",
     "build:docs": "parcel build static/index.html static/icons/* --out-dir docs",
     "start": "npm run clear && npm run build && parcel static/index.html static/icons/*",
-    "clear": "rm -rf src/* && rm -rf static/chuck/*",
+    "clear": "rm  src/*.tsx && rm -rf static/chuck/* && rm -rf lib",
     "semantic-release": "semantic-release",
     "test": "jest"
   },
