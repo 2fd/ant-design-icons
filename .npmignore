@@ -1,8 +1,11 @@
 .next
 .cache
 .ds_store
+.vscode
 dist/
 docs/
 static/
 src/
 build/
+.prettierrc
+tsconfig.json

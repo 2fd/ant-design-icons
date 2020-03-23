@@ -4,6 +4,9 @@
   "description": "Ant Design + Material Design Icon",
   "main": "lib/index.js",
   "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "directories": {
     "docs": "docs"
   },
