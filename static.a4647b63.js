@@ -481,4 +481,4 @@ module.exports=["337175dc4e","b207a637b7","3756962dc0","9b21bb08a6","d87557e08c"
 },{"tslib":"vCxL","react":"n8MK","antd/lib/button":"uh7y","antd/lib/input/Search":"rnA7","antd/lib/message":"QBtS","../src/NpmVariant":"h6um","../src/GithubBox":"Nvgr","./IconList":"hCmK","./Logo":"CycA","antd/dist/antd.min.css":"tuDi","./Site.css":"tuDi"}],"zo2T":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e=require("tslib"),r=e.__importStar(require("react")),t=e.__importStar(require("react-dom")),i=e.__importDefault(require("./Site")),u=document.getElementById("root");t.render(r.createElement(i.default,null),u);
 },{"tslib":"vCxL","react":"n8MK","react-dom":"NKHc","./Site":"oAaK"}]},{},["zo2T"], null)
-//# sourceMappingURL=/ant-design-icons/static.723982db.js.map
+//# sourceMappingURL=/ant-design-icons/static.a4647b63.js.map
