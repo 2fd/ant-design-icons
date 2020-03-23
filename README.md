@@ -27,7 +27,7 @@ Search the icon that you need in the homepage: [`http://2fd.github.io/ant-design
 
 ```typescript
 import React from 'react'
-import CodeTagsIcon from '@2fd/ant-design-icons/lib/CodeTagsIcon
+import CodeTagsIcon from '@2fd/ant-design-icons/lib/CodeTagsIcon'
 
 export default function MyComponent() {
   return <CodeTagsIcon />
