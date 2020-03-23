@@ -1,7 +1,7 @@
 # Ant design icons
 
 [![GitHub Release](https://img.shields.io/github/v/release/2fd/ant-design-icons?sort=semver)](https://github.com/2fd/ant-design-icons/releases)
-[![NPM Release](https://img.shields.io/npm/v/2fd/ant-design-icons)](https://www.npmjs.com/package/@2fd/ant-design-icons)
+[![NPM Release](https://img.shields.io/npm/v/@2fd/ant-design-icons)](https://www.npmjs.com/package/@2fd/ant-design-icons)
 
 ![ant-design-icons](./static/ant-design-icons.png)
 
