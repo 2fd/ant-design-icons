@@ -2,8 +2,8 @@ import * as React from 'react'
 import Button from 'antd/lib/button'
 import Search from 'antd/lib/input/Search'
 import message from 'antd/lib/message'
-import NpmVariantIcon from '../src/NpmVariant'
-import GithubBoxIcon from '../src/GithubBox'
+import NpmIcon from '../src/Npm'
+import GithubIcon from '../src/Github'
 import IconList from './IconList'
 import Logo from './Logo'
 
@@ -88,10 +88,10 @@ export default function Site() {
             onChange={handleFilterChange}
           />
           <Button size="large" href="https://github.com/2fd/ant-design-icons">
-            <GithubBoxIcon />
+            <GithubIcon />
           </Button>
           <Button size="large" href="https://www.npmjs.com/package/@2fd/ant-design-icons">
-            <NpmVariantIcon />
+            <NpmIcon />
           </Button>
           </div>
       </section>
