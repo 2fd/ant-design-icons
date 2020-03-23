@@ -47,7 +47,7 @@ section.search-container{
   position: absolute;
   top: 214px;
   transition: box-shadow .3s ease;
-  z-index: 100;
+  z-index: 1000;
   padding: 0;
 }
 
