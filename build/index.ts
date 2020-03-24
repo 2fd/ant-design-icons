@@ -25,6 +25,11 @@ const templateCss = readFileSync('./build/Css.mustache', 'utf8')
 for (const icon of icons) {
   const name = camelcase(icon.name)
   const component = name.slice(0, 1).toUpperCase() + name.slice(1)
+
+  if (component === 'Textbox') {
+    continue;
+  }
+
   const pathName = ('mdi' + component) as keyof typeof paths
   const path = paths[pathName] as string
   const data = { ...icon, component, path }
