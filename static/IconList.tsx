@@ -1,14 +1,13 @@
 import * as React from 'react'
-import Text from 'antd/lib/typography/Text'
 import icons from './icons/icons.json'
 import hashes from './icons/hashes.json'
 
 import './IconList.css'
 
-const ICON_BOX_WIDTH = 150
-const ICON_BOX_HEIGHT = 100
+const ICON_BOX_WIDTH = 160
+const ICON_BOX_HEIGHT = 120
 const ICON_BATCH = 3
-const ICONS = icons.map((icon) => [icon, icon[0].toUpperCase() + icon.slice(1).replace(/-(\w)/gi, (_, w) => w.toUpperCase()) + 'Icon'])
+const ICONS = icons.map((icon) => [icon, icon[0].toUpperCase() + icon.slice(1).replace(/-(\w)/gi, (_, w) => w.toUpperCase())])
 
 export type IconListProps = React.HTMLProps<HTMLDivElement> & {
   filter?: string
@@ -146,6 +145,7 @@ export default function IconList({
                 <i className={`mdi-icon mdi-${name}`} />
                 <i className={`mdi-icon mdi-${name} reverse`} />
               </span>
+              <span>{Component}</span>
               {/* <Text>{Component}</Text> */}
             </a>
           )
