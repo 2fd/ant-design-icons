@@ -19,9 +19,7 @@
 
 ## find
 
-Search the icon that you need in the homepage: [`http://2fd.github.io/ant-design-icons`](http://2fd.github.io/ant-design-icons)
-
-> There is more than 5000!
+Search the icon that you need in the homepage: [`http://2fd.github.io/ant-design-icons`](http://2fd.github.io/ant-design-icons) **More than 5000!**
 
 ## use
 
