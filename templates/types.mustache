@@ -1,0 +1,2 @@
+import Icon, { IconBaseProps } from '@ant-design/icons/lib/components/Icon'
+export type IconProps = Omit<IconBaseProps, 'ref'> & { ref: Exclude<IconBaseProps['ref'], string> }

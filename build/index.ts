@@ -4,23 +4,26 @@ import camelcase from 'camelcase'
 import { writeFileSync, readFileSync } from 'fs'
 import { render } from 'mustache'
 import { createHash } from 'crypto'
+import { FileLogger } from './FileLogger'
 
-type Unpacked<T> = T extends (infer U)[]
-  ? U
-  : T extends (...args: any[]) => infer U
-  ? U
-  : T extends Promise<infer U>
-  ? U
-  : T
+type Data = typeof icons[0] & {
+  component: string;
+  path: string;
+}
 
-let limit = Number(process.argv[2])
-const index = [] as (Unpacked<typeof icons> & {
-  component: string
-  path: string
-})[]
-const templateIcon = readFileSync('./build/Icon.mustache', 'utf8')
-const templateSvg = readFileSync('./build/Svg.mustache', 'utf8')
-const templateCss = readFileSync('./build/Css.mustache', 'utf8')
+const FILES_PER_LINE = 3
+const index: Data[] = []
+const templateCss = readFileSync('./templates/css.mustache', 'utf8')
+const templateIcon = readFileSync('./templates/icon.mustache', 'utf8')
+const templateSvg = readFileSync('./templates/svg.mustache', 'utf8')
+const templateTypes = readFileSync('./templates/types.mustache', 'utf8')
+const fileLogger = new FileLogger(FILES_PER_LINE)
+const writeFile = function(path: string, data: string){
+  fileLogger.log(path)
+  writeFileSync(path, data)
+}
+
+writeFile('./src/types.ts', render(templateTypes, {}))
 
 for (const icon of icons) {
   const name = camelcase(icon.name)
@@ -38,85 +41,62 @@ for (const icon of icons) {
   const reactContent = render(templateIcon, data)
 
   index.push(data)
-  if (Number.isFinite(limit)) {
-    console.log('')
-    console.log(`// ${reactFile}`)
-    console.log(reactContent)
-    limit--
-    if (limit >= 0) {
-      break
-    }
-  } else {
-    console.log(`writing ${reactFile}`)
-    writeFileSync(reactFile, reactContent)
-  }
+  fileLogger.log(reactFile)
+  writeFile(reactFile, reactContent)
 }
 
-const indexFile = './src/index.ts'
-const indexContent =
-  index
-    .map(
-      data =>
-        `export { default as ${data.component} } from './${data.component}'`,
-    )
-    .join('\n') + '\n'
+fileLogger.flush()
 
-if (!Number.isFinite(limit)) {
-  const len = index.length
-  const size = 100
-  let offset = 0
-  const hashes = []
-  while (offset < len) {
-    const chunk = index
-      .slice(offset, offset + size)
-      .map(({ name, path }, i) => {
-        return {
-          name,
-          path,
-          x: (i % 10) * 72,
-          y: Math.floor(i / 10) * 36,
-          x2: (i % 10) * 72 + 36,
-          y2: Math.floor(i / 10) * 36,
-        }
-      })
-    const out = render(templateSvg, { icons: chunk })
-    const hash = createHash('md5')
-      .update(out)
-      .digest('hex')
-      .slice(0, 10)
-    offset = offset + size
-    console.log(`writing ./static/icons/${hash}.svg`)
-    writeFileSync(`static/icons/${hash}.svg`, out)
-
-    const css = render(templateCss, {
-      icons: chunk.map(({ path, name, x, y, x2, y2 }) => ({
-        path,
+/**
+ * Render static templates 
+ */
+const len = index.length
+const size = 100
+let offset = 0
+const hashes = []
+while (offset < len) {
+  const chunk = index
+    .slice(offset, offset + size)
+    .map(({ name, path }, i) => {
+      return {
         name,
-        x: -x,
-        y: -y,
-        x2: -x2,
-        y2: -y2,
-      })),
-      hash,
+        path,
+        x: (i % 10) * 72,
+        y: Math.floor(i / 10) * 36,
+        x2: (i % 10) * 72 + 36,
+        y2: Math.floor(i / 10) * 36,
+      }
     })
-    console.log(`writing ./static/icons/${hash}.css`)
-    writeFileSync(`./static/icons/${hash}.css`, css)
 
-    hashes.push(hash)
-  }
+  const out = render(templateSvg, { icons: chunk })
+  const hash = createHash('md5')
+    .update(out)
+    .digest('hex')
+    .slice(0, 10)
+  offset = offset + size
 
-  // console.log(`writing ./static/chunk/index.ts`)
-  // writeFileSync('static/chunk/index.ts', `export default (resolve: (icons: Array<[string, any]>) => void, reject: (err: Error) => void) => {\n${hashes.map(hash => `  import('./${hash}').then(m => m.default as [string, any]).then(resolve).catch(reject)`).join(';\n')};\n}\n`)
+  writeFile(`./static/icons/${hash}.svg`, out)
 
-  console.log(`writing ./static/icons/icons.json`)
-  writeFileSync(
-    './static/icons/icons.json',
-    JSON.stringify(index.map(({ name }) => name)),
-  )
-  console.log(`writing ./static/icons/hashes.json`)
-  writeFileSync('./static/icons/hashes.json', JSON.stringify(hashes))
-} else {
-  console.log('')
-  console.log(`// ${indexFile}`)
-  console.log(indexContent)
+  const css = render(templateCss, {
+    icons: chunk.map(({ path, name, x, y, x2, y2 }) => ({
+      path,
+      name,
+      x: -x,
+      y: -y,
+      x2: -x2,
+      y2: -y2,
+    })),
+    hash,
+  })
+
+  writeFile(`./static/icons/${hash}.css`, css)
+  hashes.push(hash)
 }
+
+const iconsFile = './static/icons/icons.json'
+writeFile(iconsFile, JSON.stringify(index.map(({ name }) => name)))
+
+const hashesFile = './static/icons/hashes.json'
+writeFile(hashesFile, JSON.stringify(hashes))
+
+fileLogger.flush()

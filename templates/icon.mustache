@@ -1,5 +1,6 @@
 import * as React from 'react';
-import Icon, { IconBaseProps } from '@ant-design/icons/lib/components/Icon'
+import Icon from '@ant-design/icons/lib/components/Icon'
+import { IconProps } from './types'
 
 /**
  * [{{name}}](https://github.com/Templarian/MaterialDesign-SVG/blob/master/svg/{name}.svg) icon from [Material Design](https://github.com/Templarian/MaterialDesign)
@@ -8,7 +9,7 @@ import Icon, { IconBaseProps } from '@ant-design/icons/lib/components/Icon'
  * @version {{version}}{{#deprecated}}
  * @deprecated{{/deprecated}}
  */
-export default function {{component}}Icon(props: IconBaseProps) {
+export default function {{component}}Icon(props: IconProps) {
   return <Icon component={SVG} {...props} />
 }
 
