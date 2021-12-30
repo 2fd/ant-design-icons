@@ -3,6 +3,9 @@
   "version": "0.0.0-development",
   "description": "Ant Design + Material Design Icon",
   "main": "lib/index.js",
+  "targets": {
+    "main": false
+  },
   "private": false,
   "publishConfig": {
     "access": "public"
@@ -14,7 +17,7 @@
     "build": "npm run build:src && npm run build:docs && npm run build:lib",
     "build:lib": "tsc -p .",
     "build:src": "ts-node build",
-    "build:docs": "parcel build static/index.html static/icons/* --out-dir docs",
+    "build:docs": "parcel build static/index.html static/icons/* --dist-dir docs --public-url ./",
     "start": "npm run clear && npm run build && parcel static/index.html static/icons/*",
     "clear": "rm  src/*.tsx && rm -rf static/chuck/* && rm -rf lib",
     "semantic-release": "semantic-release",
@@ -48,8 +51,8 @@
   },
   "homepage": "https://github.com/2fd/ant-design-icons#readme",
   "devDependencies": {
-    "@mdi/js": "^5.9.55",
-    "@mdi/svg": "^5.9.55",
+    "@mdi/js": "^6.5.95",
+    "@mdi/svg": "^6.5.95",
     "@semantic-release/changelog": "^5.0.0",
     "@types/camelcase": "^5.2.0",
     "@types/jest": "^26.0.0",
@@ -60,10 +63,9 @@
     "@types/react-test-renderer": "^16.4.0",
     "antd": "^4.0.0",
     "camelcase": "^6.0.0",
-    "jest": "^26.6.3",
+    "jest": "^27.4.5",
     "mustache": "^4.0.0",
-    "parcel": "^1.12.4",
-    "parcel-bundler": "^1.12.4",
+    "parcel": "^2.0.1",
     "prettier": "^2.1.2",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
@@ -75,7 +77,9 @@
     "typescript": "^4.0.0"
   },
   "peerDependencies": {
-    "react": ">=16.0.0"
+    "antd": "^4.0.0",
+    "react": ">=16.0.0",
+    "react-dom": ">=16.0.0"
   },
   "dependencies": {
     "@ant-design/icons": "^4.0.0"
