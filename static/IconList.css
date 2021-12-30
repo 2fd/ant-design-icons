@@ -7,7 +7,7 @@
 }
 
 .IconList .IconList__Item {
-  width: 155px;
+  width: 140px;
   height: 90px;
   cursor: pointer;
   justify-content: center;
@@ -49,6 +49,7 @@
 }
 
 .IconList .IconList__Item::after {
+  font-family: "Lucida Console", Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
   content: attr(title);
   top: 105%;
   z-index: 999;

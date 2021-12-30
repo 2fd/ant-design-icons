@@ -45,7 +45,7 @@ header {
 
 section.search-container{
   position: absolute;
-  top: 214px;
+  top: 312px;
   transition: box-shadow .3s ease;
   z-index: 1000;
   padding: 0;
@@ -73,6 +73,18 @@ body.fixed .ant-message {
 section.search-container .ant-btn {
   margin-left: .5em;
   font-size: 24px;
+  padding-bottom: 0;
+  height: 38px;
+}
+
+section.search-container .ant-btn .npm svg {
+  height: 38px;
+  width: auto
+}
+
+section.search-container .ant-input-group-addon .ant-btn {
+  margin-left: 0;
+  height: 40px;
 }
 
 section.search-container .ant-input-search {
@@ -84,5 +96,5 @@ section.icon-list {
 }
 
 @media only screen and (max-width: var(--on-table)) {
-  
+
 }

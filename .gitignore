@@ -59,7 +59,8 @@ typings/
 
 # next.js build output
 .next
-.cache
+.cache/
+.parcel-cache/
 .ds_store
 lib/
 dist/
