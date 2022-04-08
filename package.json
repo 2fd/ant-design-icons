@@ -53,7 +53,7 @@
   "devDependencies": {
     "@mdi/js": "^6.5.95",
     "@mdi/svg": "^6.5.95",
-    "@semantic-release/changelog": "^5.0.0",
+    "@semantic-release/changelog": "^6.0.1",
     "@types/camelcase": "^5.2.0",
     "@types/jest": "^26.0.0",
     "@types/mustache": "^4.0.0",
@@ -70,7 +70,7 @@
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-test-renderer": "^16.4.0",
-    "semantic-release": "^17.0.0",
+    "semantic-release": "^19.0.2",
     "ts-jest": "^26.4.4",
     "ts-node": "^9.0.0",
     "tslib": "^2.0.0",
