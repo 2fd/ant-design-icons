@@ -24,10 +24,7 @@
     "test": "jest"
   },
   "jest": {
-    "preset": "ts-jest",
-    "roots": [
-      "<rootDir>/test/"
-    ]
+    "preset": "ts-jest"
   },
   "repository": {
     "type": "git",
@@ -51,8 +48,8 @@
   },
   "homepage": "https://github.com/2fd/ant-design-icons#readme",
   "devDependencies": {
-    "@mdi/js": "^6.5.95",
-    "@mdi/svg": "^6.5.95",
+    "@mdi/js": "^6.7.96",
+    "@mdi/svg": "^6.7.96",
     "@semantic-release/changelog": "^5.0.0",
     "@types/camelcase": "^5.2.0",
     "@types/jest": "^26.0.0",
@@ -67,12 +64,13 @@
     "mustache": "^4.0.0",
     "parcel": "^2.6.1",
     "prettier": "^2.7.1",
+    "process": "^0.11.10",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-test-renderer": "^16.4.0",
     "semantic-release": "^17.0.0",
     "ts-jest": "^26.4.4",
-    "ts-node": "^9.0.0",
+    "ts-node": "^10.8.1",
     "tslib": "^2.4.0",
     "typescript": "^4.7.4"
   },

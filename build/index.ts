@@ -1,10 +1,10 @@
 import icons from '@mdi/svg/meta.json'
-import * as paths from '@mdi/js'
-import camelcase from 'camelcase'
+import * as js from '@mdi/js'
 import { writeFileSync, readFileSync } from 'fs'
 import { render } from 'mustache'
 import { createHash } from 'crypto'
 import { FileLogger } from './FileLogger'
+import { camelcase } from './utils'
 
 type Data = typeof icons[0] & {
   component: string;
@@ -13,6 +13,7 @@ type Data = typeof icons[0] & {
 
 const FILES_PER_LINE = 3
 const index: Data[] = []
+const paths = Object.fromEntries(Object.entries(js).map(([key, value]) => [key.toLocaleLowerCase(), value] as const))
 const templateCss = readFileSync('./templates/css.mustache', 'utf8')
 const templateIcon = readFileSync('./templates/icon.mustache', 'utf8')
 const templateSvg = readFileSync('./templates/svg.mustache', 'utf8')
@@ -33,10 +34,7 @@ for (const icon of icons) {
     continue;
   }
 
-  const pathName = ('mdi' + component) as keyof typeof paths
-  const path = paths[pathName] as string
-  const data = { ...icon, component, path }
-
+  const data = { ...icon, component, path: paths[('mdi' + component).toLowerCase()] }
   const reactFile = `./src/${component}.tsx`
   const reactContent = render(templateIcon, data)
 
@@ -48,12 +46,12 @@ for (const icon of icons) {
 fileLogger.flush()
 
 /**
- * Render static templates 
+ * Render static templates
  */
 const len = index.length
 const size = 100
 let offset = 0
-const hashes = []
+const hashes: string[] = []
 while (offset < len) {
   const chunk = index
     .slice(offset, offset + size)
