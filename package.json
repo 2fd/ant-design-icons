@@ -49,7 +49,7 @@
   "homepage": "https://github.com/2fd/ant-design-icons#readme",
   "devDependencies": {
     "@mdi/js": "^6.7.96",
-    "@mdi/svg": "^6.7.96",
+    "@mdi/svg": "^7.1.96",
     "@semantic-release/changelog": "^5.0.0",
     "@types/camelcase": "^5.2.0",
     "@types/jest": "^26.0.0",
