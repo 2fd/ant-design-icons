@@ -72,14 +72,8 @@ body.fixed .ant-message {
 
 section.search-container .ant-btn {
   margin-left: .5em;
-  font-size: 24px;
   padding-bottom: 0;
   height: 38px;
-}
-
-section.search-container .ant-btn .npm svg {
-  height: 38px;
-  width: auto
 }
 
 section.search-container .ant-input-group-addon .ant-btn {
