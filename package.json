@@ -80,6 +80,6 @@
     "react-dom": ">=16.0.0"
   },
   "dependencies": {
-    "@ant-design/icons": "^4.0.0"
+    "@ant-design/icons": "^5.0.1"
   }
 }
