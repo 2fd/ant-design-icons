@@ -7,16 +7,12 @@ import GithubIcon from '../src/Github'
 import IconList from './IconList'
 import Logo from './Logo'
 
-// import 'antd/dist/antd.min.css'
-// import 'antd/lib/button/style/index.css'
-// import 'antd/lib/input/style/index.css'
-// import 'antd/lib/message/style/index.css'
 import './Site.css'
 
 export default function Site() {
   const [filter, setFilter] = React.useState(window.location.hash.slice(1))
 
-  let debounceFilterChange: NodeJS.Timeout
+  let debounceFilterChange: number
   function handleFilterChange(event: React.ChangeEvent<HTMLInputElement>) {
     const newFilter = event.target.value
 
@@ -91,10 +87,10 @@ export default function Site() {
             onChange={handleFilterChange}
           />
           <Button size="large" href="https://github.com/2fd/ant-design-icons">
-            <GithubIcon />
+            <GithubIcon style={{fontSize: '24px'}} />
           </Button>
           <Button size="large" href="https://www.npmjs.com/package/@2fd/ant-design-icons" >
-            <NpmIcon className="npm" />
+            <NpmIcon style={{fontSize: '24px'}} />
           </Button>
           </div>
       </section>
